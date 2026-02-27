@@ -1,0 +1,309 @@
+Feb10
+Feb10
+Wednesday
+Feb10
+input day number3
+Wednesday
+Feb10
+Wednesday
+{Unrecognized function or variable 'red'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb10', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb10.m', 21)" style="font-weight:bold">Feb10</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb10.m',21,0)">line 21</a>)
+    case red
+} 
+Feb10
+Wednesday
+{Unrecognized function or variable 'red'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb10', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb10.m', 21)" style="font-weight:bold">Feb10</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb10.m',21,0)">line 21</a>)
+    case red
+} 
+Feb10
+Wednesday
+stop
+Feb10
+Wednesday
+caution
+Feb10
+Wednesday
+unknown color
+Feb10
+Wednesday
+go
+Feb10
+Wednesday
+go
+Feb10
+Wednesday
+go
+out of range
+Feb10
+Wednesday
+go
+even number
+Feb10
+Wednesday
+go
+even number
+    32
+
+Feb10
+Wednesday
+go
+even number
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb10')" style="font-weight:bold">Feb10</a>
+unknown operator
+} 
+Feb10
+Wednesday
+go
+even number
+unknown operator
+    32
+
+Feb10
+Wednesday
+go
+even number
+     2
+
+Feb10
+Wednesday
+go
+even number
+     2
+
+Feb10
+Wednesday
+go
+even number
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb10')" style="font-weight:bold">Feb10</a>
+unknown operator
+} 
+Feb10
+Wednesday
+go
+even number
+     2
+
+Feb10
+Wednesday
+go
+even number
+     2
+
+{Unrecognized function or variable 'enter'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb10', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb10.m', 66)" style="font-weight:bold">Feb10</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb10.m',66,0)">line 66</a>)
+x=enter('choice number');
+} 
+Feb10
+Wednesday
+go
+even number
+     2
+
+choice number2
+open file
+Feb10
+Wednesday
+go
+even number
+     2
+
+choice number to make a new file, enter 1 to open, enter 21
+new file
+Feb10
+Wednesday
+go
+even number
+     2
+
+new file
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+0
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Spring
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+out of range
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Hot
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Weekend
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Weekend
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Cannot call INPUT from EVALC.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW2', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW2.m', 14)" style="font-weight:bold">HW2</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW2.m',14,0)">line 14</a>)
+P=input('three scores as a row [x y z]');
+HW2
+the distance between two given points is 12.5879
+three scores as a row [x y z][1 2 3]
+the average of the given score is 2.000000 
+value=3.141593e+02
+value=314.159265
+value=314.159
+value=    314.1593
+HW2
+the distance between two given points is 12.5879
+the average of the given score is 77.000000 
+value=3.141593e+02
+value=314.159265
+value=314.159
+value=    314.1593
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Weekend
+B
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Weekend
+B
+B
+Feb10
+Wednesday
+go
+even number
+     2
+
+save file
+negative
+Winter
+Warm
+Weekend
+B
+B
+diary off

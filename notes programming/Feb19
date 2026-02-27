@@ -1,0 +1,389 @@
+Feb19
+   1    2    3    4    5 
+   2    4    6    8   10 
+   3    6    9   12   15 
+   4    8   12   16   20 
+   5   10   15   20   25 
+Feb19
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+Feb19
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+   2   4[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+n   2   4   6   8[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+n   6  12[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+n   4   8  12  16[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+nFeb19
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+   2   4[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+n   2   4   6   8[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+n   6  12[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+n   4   8  12  16[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 19)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',19,0)">line 19</a>)] 
+nFeb19
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+   2   4
+   2   4   6   8
+   6  12
+   4   8  12  16
+Feb19
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+   2   4
+   2   4   6   8
+   6  12
+   4   8  12  16
+Feb19
+   1   2   3   4   5
+   2   4   6   8  10
+   3   6   9  12  15
+   4   8  12  16  20
+   5  10  15  20  25
+   2   4
+   2   4   6   8
+   6  12
+   4   8  12  16
+Feb19
+   2   4
+   2   4   6   8
+   6  12
+   4   8  12  16
+Feb19
+   1   3
+
+   3   9
+
+Feb19
+   2   4
+   2   4   6   8
+   6  12
+   4   8  12  16
+Feb19
+(1,1)(1,2)(1,3)(1,4)[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 35)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',35,0)">line 35</a>)] 
+n(2,1)(2,2)(2,3)(2,4)[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 35)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',35,0)">line 35</a>)] 
+n(3,1)(3,2)(3,3)(3,4)[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb19', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m', 35)" style="font-weight:bold">Feb19</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',35,0)">line 35</a>)] 
+nFeb19
+(1,1)(1,2)(1,3)(1,4)
+(2,1)(2,2)(2,3)(2,4)
+(3,1)(3,2)(3,3)(3,4)
+Feb19
+1,11,21,31,4
+2,12,22,32,4
+3,13,23,33,4
+Feb19
+(1,1)(1,2)(1,3)(1,4)
+(2,1)(2,2)(2,3)(2,4)
+(3,1)(3,2)(3,3)(3,4)
+Feb19
+
+6
+67
+678
+Feb19
+
+6 
+6 7 
+6 7 8 
+Feb19
+
+6 
+6 7 
+6 7 8 
+1234Feb19
+
+6 
+6 7 
+6 7 8 
+1
+2
+3
+4
+Feb19
+
+6 
+6 7 
+6 7 8 
+Feb19
+
+6 
+6 7 
+6 7 8 
+Feb19
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',58,12)">File: Feb19.m Line: 58 Column: 12</a>
+Incorrect use of '=' operator. Assign a value to a variable using '=' and compare values for equality using '=='.
+} 
+Feb19
+
+6 
+6 7 
+6 7 8 
+
+
+
+
+Feb19
+
+
+
+
+Feb19
+2 
+3 
+4 
+
+Feb19
+2 3 4 
+3 4 
+4 
+
+Feb19
+1
+12
+123
+1234
+Feb19
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+help isprime
+ <strong>isprime</strong> True for prime numbers.
+    <strong>isprime</strong>(X) is 1 for the elements of X that are prime, 0 otherwise.
+ 
+    Class support for input X:
+       float: double, single
+       integer: uint8, int8, uint16, int16, uint32, int32, uint64, int64
+ 
+    See also <a href="matlab:help factor -displayBanner">factor</a>, <a href="matlab:help primes -displayBanner">primes</a>.
+
+    <a href="matlab:doc isprime">Documentation for isprime</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('isprime')">Other uses of isprime</a>
+
+doc isprime
+Feb19
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',67,6)">File: Feb19.m Line: 67 Column: 6</a>
+Invalid use of operator.
+} 
+Feb19
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 Feb19
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 Feb19
+2 
+3 
+5 
+7 
+11 
+13 
+17 
+19 
+23 
+29 
+31 
+37 
+41 
+43 
+47 
+Feb19
+   1   0   0   0
+   0   1   1   0
+   0   0   0   0
+   0   0   0   1
+
+Feb19
+Feb19
+Matrix A:
+    48     8    44    11
+    51    14    13    14
+    30    45    50    33
+     8    14    19    26
+
+Prime numbers in A:
+Feb19
+    19    49    21    29
+    45    16    31    42
+    32    41     5    50
+    30    40     3     7
+
+Feb19
+    31     9     9    37
+    25    43    32    40
+     1    17    14    24
+    18    29    35     5
+
+    31
+
+    37
+
+    43
+
+    17
+
+    29
+
+     5
+
+Feb19
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb19.m',87,26)">File: Feb19.m Line: 87 Column: 26</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+Feb19
+    13    29     6    44
+    49    53    51    47
+     9     5     1     5
+    44    24    42    22
+
+13 29 53 47 5 5 Feb19
+    14    10    47    46
+    43    14    31    33
+    23     8    30    19
+    49     8     8    28
+
+47 43 31 23 19 Feb19
+    22    10    48    18
+     5    13    51    48
+    13    23    27    20
+     7     3    26     6
+
+
+
+
+
+5 
+13 
+
+
+13 
+23 
+
+
+7 
+3 
+
+
+Feb19
+    42     6    31    44
+    21     7     4     1
+    13    50    13     3
+    22    51    19     9
+
+31 7 13 13 3 19 
+Feb19
+    35    29    37    42
+    39    16    10     5
+    35    40    20    50
+    24    11    34    42
+
+prime numbers inside the matrix are 29 prime numbers inside the matrix are 37 prime numbers inside the matrix are 5 prime numbers inside the matrix are 11 
+Feb19
+    26    27    35    19
+    24    28    21    50
+    24    44    44    47
+    17    43    29    30
+
+prime 19 prime 47 prime 17 prime 43 prime 29 
+Feb19
+    33    25    12    17
+    32    13    10    49
+    12    45    13    23
+    16    11    24    10
+
+prime 17
+prime 13
+prime 13
+prime 23
+prime 11
+
+Feb19
+    48    14    32    16
+    52    22    38    17
+    24    32    12    23
+     6    14     7    27
+
+prime 17
+prime 23
+prime 7
+
+Feb19
+     5    50    13    28
+    14    39    25    13
+    43    26    52    26
+     2    31    29    34
+
+prime 5
+prime 13
+prime 13
+prime 43
+prime 2
+prime 31
+prime 29
+
+******   ** * **   ******Feb19
+    36     3     6     8
+    21    47    14    39
+    20    49    18     6
+    53    43    37    35
+
+prime 3
+prime 47
+prime 53
+prime 43
+prime 37
+
+******   ** * **   ******Feb19
+    27    48     2    48
+    42    18    40    33
+    38    38    27    33
+    48    11    26    46
+
+prime 2
+prime 11
+
+*****
+*   *
+* * *
+*   *
+*****
+diary end

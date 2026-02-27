@@ -1,0 +1,282 @@
+help fprintf
+ <strong>fprintf</strong> Write formatted data to text file.
+    <strong>fprintf</strong>(FID, FORMAT, A, ...) applies the FORMAT to all elements of array A and
+    any additional array arguments in column order, and writes the data to a text
+    file.  FID is an integer file identifier.  Obtain FID from FOPEN, or set it to 1
+    (for standard output, the screen) or 2 (standard error). <strong>fprintf</strong> uses the
+    encoding scheme specified in the call to FOPEN.
+ 
+    <strong>fprintf</strong>(FORMAT, A, ...) formats data and displays the results on the screen.
+ 
+    COUNT = <strong>fprintf</strong>(...) returns the number of bytes that <strong>fprintf</strong> writes.
+ 
+    FORMAT is a character vector that describes the format of the output fields, and
+    can include combinations of the following:
+ 
+       * Conversion specifications, which include a % character, a
+         conversion character (such as d, i, o, u, x, f, e, g, c, or s), and optional
+         flags, width, and precision fields.  For more details, type "doc fprintf" at
+         the command prompt.
+ 
+       * Literal text to print.
+ 
+       * Escape characters, including:
+             \b     Backspace            ''   Single quotation mark
+             \f     Form feed            %%   Percent character
+             \n     New line             \\   Backslash
+             \r     Carriage return      \xN  Hexadecimal number N
+             \t     Horizontal tab       \N   Octal number N
+         For most cases, \n is sufficient for a single line break. However, if you
+         are creating a file for use with Microsoft Notepad, specify a combination of
+         \r\n to move to a new line.
+ 
+    Notes:
+ 
+    If you apply an integer or text conversion to a numeric value that contains a
+    fraction, MATLAB overrides the specified conversion, and uses %e.
+ 
+    Numeric conversions print only the real component of complex numbers.
+ 
+    Example: Create a text file called exp.txt containing a short table of the
+    exponential function.
+ 
+        x = 0:.1:1;
+        y = [x; exp(x)];
+        fid = fopen('exp.txt','w');
+        fprintf(fid,'%6.2f  %12.8f\n',y);
+        fclose(fid);
+ 
+    Examine the contents of exp.txt:
+ 
+        type exp.txt
+ 
+    MATLAB returns:
+           0.00    1.00000000
+           0.10    1.10517092
+                ...
+           1.00    2.71828183
+ 
+    See also <a href="matlab:help fopen -displayBanner">fopen</a>, <a href="matlab:help fclose -displayBanner">fclose</a>, <a href="matlab:help fscanf -displayBanner">fscanf</a>, <a href="matlab:help fread -displayBanner">fread</a>, <a href="matlab:help fwrite -displayBanner">fwrite</a>, <a href="matlab:help sprintf -displayBanner">sprintf</a>, <a href="matlab:help disp -displayBanner">disp</a>.
+
+    <a href="matlab:doc fprintf">Documentation for fprintf</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('fprintf')">Other uses of fprintf</a>
+
+doc fprintf
+doc fprintf
+Sylinder(10,10)
+{Error: <a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',14,1)">File: Sylinder.m Line: 14 Column: 1</a>
+This statement is not inside any function.
+ (It follows the END that terminates the definition of the function "Sylinder".)
+} 
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+} 
+Sylinder(10,10)
+ the volume of sylinder is 3141.5926542.4 /n
+ans =
+
+   3.1416e+03
+
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+} 
+Sylinder(10,10)
+ the volume of sylinder is 3.141593e+03 /n
+ans =
+
+   3.1416e+03
+
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+} 
+Sylinder(10,10)
+ the volume of sylinder is 3.141593e+03 /n
+ans =
+
+   3.1416e+03
+
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+} 
+Syinder(10,10)
+{Unrecognized function or variable 'Syinder'.
+} 
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+} 
+Sylinder(10,10)
+ the volume of sylinder is 3141.592654 /n
+ans =
+
+   3.1416e+03
+
+Sylinder
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',15,10)">File: Sylinder.m Line: 15 Column: 10</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+Sylinder
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',15,10)">File: Sylinder.m Line: 15 Column: 10</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+Sylinder(10,10)
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',15,10)">File: Sylinder.m Line: 15 Column: 10</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+} 
+Sylinder(10,10)
+the volume of sylinder is /n
+
+ans =
+
+   3.1416e+03
+
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=(Jan27Ex1(r))*h;
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=Jan27Ex1(r)*h;
+} 
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=Jan27Ex1(r)*h;
+Sylinder
+{Dot indexing into the result of a function call requires parentheses after the function name. The supported
+syntax is 'Jan27Ex1().m'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=Jan27Ex1.m(r)*h;
+} 
+Dot indexing into the result of a function call requires parentheses after the function name. The supported
+syntax is 'Jan27Ex1().m'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 9)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',9,0)">line 9</a>)
+V=Jan27Ex1.m(r)*h;
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dbstatus')" style="font-weight:bold">dbstatus</a>
+Error: File: /Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m Line: 10 Column: 1
+Function 'Sylinder' has already been declared within this scope.
+help publish
+ <strong>publish</strong> - Generate view of MATLAB file in specified format
+    This MATLAB function generates a view of the specified MATLAB code file
+    and output in an HTML format that can be used for sharing.
+
+    Syntax
+      <strong>publish</strong>(file)
+      <strong>publish</strong>(file,format)
+
+      <strong>publish</strong>(file,Name,Value)
+      <strong>publish</strong>(file,options)
+
+      my_doc = <strong>publish</strong>(file,___)
+
+    Input Arguments
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1275369">file</a> - MATLAB file name
+        character vector | string
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1275411">format</a> - Output format
+        'html' (default) | 'doc' | 'latex' | 'ppt' | 'xml' | 'pdf'
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1275533">options</a> - Options for published output
+        structure
+
+    Name-Value Arguments
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#mw_089646dc-636e-4ac6-87b6-264a026687e8">format</a> - Output format
+        'html' (default) | 'doc' | 'latex' | 'ppt' | 'xml' | 'pdf'
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#mw_01ab8d6e-d557-4fa8-addf-3b9eda175134">outputDir</a> - Output folder
+        character vector
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#mw_e3850cc1-19ca-486b-96d5-fc8765116d14">stylesheet</a> - Extensible Stylesheet Language (XSL) file
+        character vector
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1275766">createThumbnail</a> - Whether to create thumbnail image
+        true (default) | false
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1275792">figureSnapMethod</a> - Figure window appearance
+        'entireGUIWindow' (default) | 'print' | 'getframe' |
+        'entireFigureWindow'
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1275914">imageFormat</a> - Image file format
+        'png' | 'epsc2' | 'jpg'
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276084">maxHeight</a> - Maximum image height
+        [] (default) | positive integer
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276116">maxWidth</a> - Maximum image width
+        [] (default) | positive integer
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276144">useNewFigure</a> - Whether to create new figure
+        true (default) | false
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276190">evalCode</a> - Whether to run code
+        true (default) | false
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276219">catchError</a> - Whether to catch errors
+        true (default) | false
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276256">codeToEvaluate</a> - Additional code to run
+        character vector
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276289">maxOutputLines</a> - Maximum number of lines
+        Inf (default) | nonnegative integer value
+      <a href="matlab:web /Applications/MATLAB_R2023b.app/help/matlab/ref/publish.html#d126e1276325">showCode</a> - Whether to include code
+        true (default) | false
+
+    Examples
+      <a href="matlab:openExample('matlab/GenerateHTMLViewOfMATLABScriptExample')">Generate HTML View of MATLAB Script</a>
+      <a href="matlab:openExample('matlab/GenerateViewOfMATLABScriptInMicrosoftWordFormatExample')">Generate View of MATLAB Script in Microsoft Word Format</a>
+      <a href="matlab:openExample('matlab/CustomizeViewOfScriptUsingNameValueArgumentsExample')">Customize View of MATLAB Script Using Name-Value Arguments</a>
+      <a href="matlab:openExample('matlab/CustomizeViewOfMATLABScriptUsingStructureExample')">Customize View of MATLAB Script Using Structure</a>
+      <a href="matlab:openExample('matlab/GenerateHTMLViewOfMATLABFunctionWithInputArgumentsExample')">Generate HTML View of MATLAB Function with Input Arguments</a>
+
+    See also <a href="matlab:help grabcode -displayBanner">grabcode</a>, <a href="matlab:help snapnow -displayBanner">snapnow</a>, <a href="matlab:help web -displayBanner">web</a>, <a href="matlab:help winopen -displayBanner">winopen</a>, <a href="matlab:help export -displayBanner">export</a>
+
+    Introduced in MATLAB before R2006a
+    <a href="matlab:doc publish">Documentation for publish</a>
+
+doc publish
+doc publish
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dbstatus')" style="font-weight:bold">dbstatus</a>
+Error: File: /Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m Line: 11 Column: 1
+Function 'Sylinder' has already been declared within this scope.
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dbstatus')" style="font-weight:bold">dbstatus</a>
+Error: File: /Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m Line: 15 Column: 1
+Function 'Sylinder' has already been declared within this scope.
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dbstatus')" style="font-weight:bold">dbstatus</a>
+Error: File: /Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m Line: 15 Column: 1
+Function 'Sylinder' has already been declared within this scope.
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dbstatus')" style="font-weight:bold">dbstatus</a>
+Error: File: /Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m Line: 11 Column: 1
+Function 'Sylinder' has already been declared within this scope.
+Silynder(10,10)
+{Unrecognized function or variable 'Silynder'.
+} 
+Jan27Ex2(10,10)
+{Unrecognized function or variable 'Jan27Ex2'.
+} 
+Jan27Ex1(10,10)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan27Ex1')" style="font-weight:bold">Jan27Ex1</a>
+Too many input arguments.
+} 
+diary close

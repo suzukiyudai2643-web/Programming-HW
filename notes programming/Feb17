@@ -1,0 +1,696 @@
+Feb17
+enter a number:  3
+enter a number:  3
+enter a number:  3 3
+ 3 3
+   ↑
+{Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+enter a number:  3
+enter a number:  32
+enter a number:  3
+enter a number:  1
+enter a number:  10
+enter a number:  10
+enter a number:  2
+The sum is 67.00
+Feb17
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+The sum is 10.00
+Feb17
+enter a number:  1
+enter a number:  1
+enter a number:  1
+enter a number:  1
+The sum is 4.00
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 11
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 11
+Enter a nubmer: 1
+[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 20)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',20,0)">line 20</a>)] 
+The vector is : n     1     1    11     1     1     1    11     1
+
+1
+
+ans =
+
+     1
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 20)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',20,0)">line 20</a>)] 
+The vector is : n     1     1     1     1     1     1     1
+
+1
+
+ans =
+
+     1
+
+1
+
+ans =
+
+     1
+
+Feb17
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 5
+[Warning: A lone trailing backslash, '\' , is not a valid control character. See 'doc sprintf' for control
+characters valid in the format string.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 20)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',20,0)">line 20</a>)] 
+The vector is : n     2     3     4     5
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 5
+The vector is : 
+     1     2     3     4     5
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 5
+Enter a nubmer: 6
+The vector is : 
+     1     2     3     4     5     6
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 5
+Enter a nubmer: 6
+Enter a nubmer: 7
+Enter a nubmer: 8
+The vector is : 
+     1     2     3     4     5     6     7     8
+
+Feb17
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 2
+The vector is : 
+     2     2     2     2     0     0     0     0
+     2     2     2     2     0     0     0     0
+
+Feb17
+Enter a nubmer: 2 3
+ 2 3
+   ↑
+{Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+Enter a nubmer: 2
+Enter a nubmer: 2
+The vector is : 
+     2     0
+     2     0
+
+2
+
+ans =
+
+     2
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 5
+Enter a nubmer: 6
+Enter a nubmer: 7
+Enter a nubmer: 8
+The vector is : 
+     1     3     5     7     0     0     0     0
+     2     4     6     8     0     0     0     0
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 5
+Enter a nubmer: 6
+Enter a nubmer: 7
+Enter a nubmer: 8
+Enter a nubmer: 9
+Enter a nubmer: 10
+Enter a nubmer: 11
+Enter a nubmer: 12
+Enter a nubmer: 13
+Enter a nubmer: 14
+Enter a nubmer: 15
+Enter a nubmer: 16
+The vector is : 
+     1     3     5     7     9    11    13    15
+     2     4     6     8    10    12    14    16
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 
+{Unable to perform assignment because the size of the left side is 1-by-1 and the size of the right side is
+0-by-0.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 23)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',23,0)">line 23</a>)
+    numvec(j,iv)=inputnum;
+} 
+1
+
+ans =
+
+     1
+
+11
+
+ans =
+
+    11
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 1
+The vector is : 
+     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1
+
+numvec(2,:)
+
+ans =
+
+     1     1     1     1     1     1     1     1
+
+Feb17
+Enter a nubmer: 1
+Enter a nubmer: 1
+Enter a nubmer: 2
+Enter a nubmer: 2
+Enter a nubmer: 3
+Enter a nubmer: 3
+Enter a nubmer: 4
+Enter a nubmer: 4
+The vector is : 
+     1     2     3     4
+     1     2     3     4
+
+numbec(:,2)
+{Unrecognized function or variable 'numbec'.
+} 
+numvec(:,2)
+
+ans =
+
+     2
+     2
+
+numvec(3,:)
+{Index in position 1 exceeds array bounds. Index must not exceed 2.
+} 
+numvec(2,:)
+
+ans =
+
+     1     2     3     4
+
+Feb17
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single input of y-values or one or more pairs of x- and y-values.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 36)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',36,0)">line 36</a>)
+    plot(x,y,i)
+} 
+Feb17
+Feb17
+Feb17
+the plot of sine with number of points 200.000000
+Feb17
+{Error: <a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',32,1)">File: Feb17.m Line: 32 Column: 1</a>
+At least one END is missing. The statement beginning here does not have a matching end.
+} 
+Feb17
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+the plot of sine with number of points ] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+the plot of sine with number of points ] 
+Feb17
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+the plot of sine with number of points ] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+the plot of sine with number of points ] 
+Feb17
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+the plot of sine with number of points ] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+the plot of sine with number of points ] 
+Feb17
+*
+**
+***
+Feb17
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 68)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',68,0)">line 68</a>)
+    fprintf(1*columns\n)
+} 
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 68)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',68,0)">line 68</a>)
+    fprintf(1*columns)
+} 
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 68)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',68,0)">line 68</a>)
+    fprintf(1*columns)
+} 
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 69)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',69,0)">line 69</a>)
+    fprintf(1*columns)
+} 
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 69)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',69,0)">line 69</a>)
+    fprintf(rows*columns)
+} 
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 69)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',69,0)">line 69</a>)
+    fprintf(i*j)
+} 
+Feb17
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+i=1, j=1 
+i=1, j=2 
+
+i=2, j=1 
+i=2, j=2 
+
+i=3, j=1 
+i=3, j=2 
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb17', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m', 69)" style="font-weight:bold">Feb17</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb17.m',69,0)">line 69</a>)
+        fprintf(i*j)
+} 
+Feb17
+Feb17
+     1     2     3     4     5
+     2     4     6     8    10
+     3     6     9    12    15
+
+help zeros
+ <strong>zeros</strong>  Zeros array.
+    <strong>zeros</strong>(N) is an N-by-N matrix of zeros.
+ 
+    <strong>zeros</strong>(M,N) or <strong>zeros</strong>([M,N]) is an M-by-N matrix of zeros.
+ 
+    <strong>zeros</strong>(M,N,P,...) or <strong>zeros</strong>([M N P ...]) is an M-by-N-by-P-by-... array of
+    zeros.
+ 
+    <strong>zeros</strong>(SIZE(A)) is the same size as A and all zeros.
+ 
+    <strong>zeros</strong> with no arguments is the scalar 0.
+ 
+    <strong>zeros</strong>(..., CLASSNAME) is an array of zeros of class specified by the
+    string CLASSNAME.
+ 
+    <strong>zeros</strong>(..., 'like', Y) is an array of zeros with the same data type, sparsity,
+    and complexity (real or complex) as the numeric variable Y.
+ 
+    Note: The size inputs M, N, and P... should be nonnegative integers. 
+    Negative integers are treated as 0.
+ 
+    Example:
+       x = zeros(2,3,'int8');
+ 
+    See also <a href="matlab:help eye -displayBanner">eye</a>, <a href="matlab:help ones -displayBanner">ones</a>.
+
+    <a href="matlab:doc zeros">Documentation for zeros</a>
+
+doc zeros
+Feb17
+     1     2     3     4     5
+     2     4     6     8    10
+     3     6     9    12    15
+
+Feb17
+     1     2     3     4     5
+     2     4     6     8    10
+     3     6     9    12    15
+
+Feb17
+     1     2     3     4     5
+     2     4     6     8    10
+     3     6     9    12    15
+
+Feb17
+     1     2     3     4     5     6     7     8     9    10    11    12
+     2     4     6     8    10    12    14    16    18    20    22    24
+     3     6     9    12    15    18    21    24    27    30    33    36
+     4     8    12    16    20    24    28    32    36    40    44    48
+     5    10    15    20    25    30    35    40    45    50    55    60
+     6    12    18    24    30    36    42    48    54    60    66    72
+     7    14    21    28    35    42    49    56    63    70    77    84
+     8    16    24    32    40    48    56    64    72    80    88    96
+     9    18    27    36    45    54    63    72    81    90    99   108
+    10    20    30    40    50    60    70    80    90   100   110   120
+    11    22    33    44    55    66    77    88    99   110   121   132
+    12    24    36    48    60    72    84    96   108   120   132   144
+
+diary end

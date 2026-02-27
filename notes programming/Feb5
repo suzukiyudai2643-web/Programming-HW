@@ -1,0 +1,583 @@
+Feb5
+{Error: <a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',5,1)">File: Feb5.m Line: 5 Column: 1</a>
+At least one END is missing. The statement beginning here does not have a matching end.
+} 
+Feb5
+x is positive
+Feb5
+Enter a number = 5
+x is positive
+Feb5
+Enter a number = 0
+Feb5
+Enter a number = 
+x is negative
+Feb5
+Enter a number = 6
+x is positive
+x is nonnegative
+Feb5
+Enter a number = -4
+x is negative
+Feb5
+Enter a number = 0
+x is nonnegative
+x is 0
+Feb5
+Enter a number = 0
+x is nonnegative
+x=0
+Feb5
+Enter a number = 5
+x is positive
+x is nonnegative
+x is positive
+x is an odd number
+Feb5
+Enter a number = -7
+x is negative
+x is negative
+x is an odd number
+Feb5
+Enter a number = 0.5
+x is positive
+x is nonnegative
+x is positive
+x is an odd number
+Feb5
+Enter a number = 100
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+Feb5
+Enter an integer = 50
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+Enter a grade = 72
+C
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+Enter a grade = 75
+C
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an odd number
+Enter a grade = 22
+F
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+Enter a grade = -10
+F
+Feb5
+x is negative
+x is negative
+x is an even number
+Enter a score = -10
+F
+Feb5
+x is negative
+x is negative
+x is an even number
+Enter a score = -10
+error
+Feb5
+x is negative
+x is negative
+x is an even number
+Enter a score = 120
+error
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+Enter a score = 102
+A+
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+Enter a score = -100
+error
+100
+Feb5
+x is negative
+x is negative
+x is an even number
+Enter a score = -20
+error
+    20
+
+Feb5
+x is negative
+x is negative
+x is an even number
+Enter a score = -20
+error
+The absolute value of -20 is 20 
+Feb5
+x is negative
+x is negative
+x is an even number
+Enter a score = clc
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('clc')" style="font-weight:bold">clc</a>
+Too many output arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 36)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',36,0)">line 36</a>)
+%x=input('Enter a score = ');
+} 
+Enter a score = 100
+A
+The absolute value of 100 is 100 
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 66)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',66,0)">line 66</a>)
+x=input('enter your age if you are not a US citizen, write 0=');
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+A
+The absolute value of 100 is 100 
+enter your age if you are not a US citizen, write 0=100
+{Unrecognized function or variable 'a'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+if x<18
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+A
+The absolute value of 100 is 100 
+enter your age if you are not a US citizen, write 0=0
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is nonnegative
+x=0
+x is an even number
+F
+The absolute value of 0 is 0 
+enter your age if you are not a US citizen, write 0=10
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+enter your age if you are not a US citizen, write 0=01
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an odd number
+F
+The absolute value of 1 is 1 
+enter your age if you are not a US citizen, write 0=10
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+enter your age if you are not a US citizen, write 0=10
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+enter your age if you are not a US citizen, write 0=10
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+enter your age if you are not a US citizen, write 0=10
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+enter your age if you are not a US citizen, write 0=10
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 68)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',68,0)">line 68</a>)
+    print('you are not eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+enter your age if you are not a US citizen, write 0=100
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 70)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',70,0)">line 70</a>)
+    print('you are eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+A
+The absolute value of 100 is 100 
+enter your age if you are not a US citizen, write 0=100
+{Error using validateHandleToPrint
+No figure to print.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/private/validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/graphics/printing/print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 70)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',70,0)">line 70</a>)
+    print('you are eligible to vote')
+} 
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+A
+The absolute value of 100 is 100 
+enter your age20
+Are you a US citizen?yes
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'yes'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen? no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?on
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'on'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+% citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+% citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+% citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen? no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+% citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?no
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Unrecognized function or variable 'no'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 67)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',67,0)">line 67</a>)
+% citizen=input('Are you a US citizen?');
+} 
+Are you a US citizen?
+{Unrecognized function or variable 'yes'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Feb5', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m', 69)" style="font-weight:bold">Feb5</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Feb5.m',69,0)">line 69</a>)
+% if age>=18 && yes
+} 
+
+
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+A
+The absolute value of 100 is 100 
+x is greater than or equal to 5
+
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+enter a vector[2,3,4]
+correct length
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+enter a vector[2,8]
+vector is too short
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+enter a vector[2 3]
+vector is too short
+[4,5]
+
+ans =
+
+     4     5
+
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+enter a vector[2,3,4]
+correct length
+Feb5
+x is positive
+x is nonnegative
+x is positive
+x is an even number
+F
+The absolute value of 10 is 10 
+x is greater than or equal to 5
+correct length
+diary end

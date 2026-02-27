@@ -1,0 +1,721 @@
+Jan29
+hello, MATLAB!
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.5 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:  92.50 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+{Unrecognized function or variable 'n'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 65)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',65,0)">line 65</a>)
+fprintf('the area of the circle is %f' \n,area)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+{Unrecognized function or variable 'n'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 65)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',65,0)">line 65</a>)
+fprintf('the area of the circle is %f' \n,area);
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+pi
+
+ans =
+
+    3.1416
+
+format long
+pi
+
+ans =
+
+   3.141592653589793
+
+format short
+pi
+
+ans =
+
+    3.1416
+
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Value must be a character vector or a string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 71)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',71,0)">line 71</a>)
+disp(a=5)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Value must be a character vector or a string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 71)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',71,0)">line 71</a>)
+disp(a=5)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Value must be a character vector or a string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 71)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',71,0)">line 71</a>)
+disp(a=5)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Value must be a character vector or a string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 71)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',71,0)">line 71</a>)
+disp(a=5)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Value must be a character vector or a string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 71)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',71,0)">line 71</a>)
+disp(a=5)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Value must be a character vector or a string scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan29', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m', 71)" style="font-weight:bold">Jan29</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan29.m',71,0)">line 71</a>)
+disp(a=5)
+} 
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:      92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+ 
+new section starts here
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:  92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+ 
+new section starts here
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+    Score:  92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+ 
+new section starts here
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:  92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+ 
+new section starts here
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+Score:  92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+ 
+new section starts here
+Jan29
+hello, MATLAB!
+The value of x is5 
+The value of y is3.141590 
+y=3.14 
+a=2, b=7.50 
+Hello Yudai !
+What is today     Today is a nice day 
+    Score:  92.50 
+Hello eveyone
+     1     2     3     4
+
+     1     2
+     3     4
+
+   125    66
+
+x= 5
+ the area of the circle is78.5398
+the area of the circle is 78.539816 
+   1
+
+   0
+
+ 
+new section starts here
+HW1
+
+ans =
+
+   27.7778
+
+
+ans =
+
+   0.0000 + 0.4859i
+
+
+ans =
+
+    14
+
+
+ans =
+
+    2.2764
+
+HW1
+
+ans =
+
+   27.7778
+
+
+ans =
+
+   0.0000 + 0.4859i
+
+
+ans =
+
+    14
+
+
+ans =
+
+    2.2764
+
+HW1
+a)27.7778
+
+ans =
+
+   27.7778
+
+
+ans =
+
+   0.0000 + 0.4859i
+
+
+ans =
+
+    14
+
+
+ans =
+
+    2.2764
+
+HW1
+a)27.7778
+b)0+0.48587i
+
+ans =
+
+    14
+
+
+ans =
+
+    2.2764
+
+diary close

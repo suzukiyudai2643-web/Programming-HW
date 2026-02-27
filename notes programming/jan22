@@ -1,0 +1,545 @@
+who
+
+Your variables are:
+
+ans  w    x    y    z    
+
+t=false;
+class(t)
+
+ans =
+
+    'logical'
+
+class(x)
+
+ans =
+
+    'double'
+
+pi
+
+ans =
+
+    3.1416
+
+% opteration
+e
+{Unrecognized function or variable 'e'.
+} 
+exp(1)
+
+ans =
+
+    2.7183
+
+sqrt(-1)
+
+ans =
+
+   0.0000 + 1.0000i
+
+inf
+
+ans =
+
+   Inf
+
+0/0
+
+ans =
+
+   NaN
+
+inf/inf
+
+ans =
+
+   NaN
+
+inf/0
+
+ans =
+
+   Inf
+
+NaN
+
+ans =
+
+   NaN
+
+help NaN
+ <strong>NaN</strong>    Not-a-Number.
+    <strong>NaN</strong> is the IEEE arithmetic representation for Not-a-Number.
+    A <strong>NaN</strong> is obtained as a result of mathematically undefined
+    operations like 0.0/0.0  and inf-inf.
+ 
+    <strong>NaN</strong>('double') is the same as <strong>NaN</strong> with no inputs.
+ 
+    <strong>NaN</strong>('single') is the single precision representation of <strong>NaN</strong>.
+ 
+    <strong>NaN</strong>(N) is an N-by-N matrix of NaNs.
+ 
+    <strong>NaN</strong>(M,N) or <strong>NaN</strong>([M,N]) is an M-by-N matrix of NaNs.
+ 
+    <strong>NaN</strong>(M,N,P,...) or <strong>NaN</strong>([M,N,P,...]) is an M-by-N-by-P-by-... array of NaNs.
+ 
+    <strong>NaN</strong>(..., CLASSNAME) is an array of NaNs of class specified by the 
+    string CLASSNAME. CLASSNAME can be either 'single' or 'double'.
+ 
+    <strong>NaN</strong>(..., 'like', Y) is an array of NaNs with the same data type, sparsity,
+    and complexity (real or complex) as the single or double precision numeric 
+    variable Y.
+ 
+    Note: The size inputs M, N, and P... should be nonnegative integers. 
+    Negative integers are treated as 0.
+ 
+    See also <a href="matlab:help inf -displayBanner">inf</a>, <a href="matlab:help isnan -displayBanner">isnan</a>, <a href="matlab:help isfinite -displayBanner">isfinite</a>, <a href="matlab:help isfloat -displayBanner">isfloat</a>.
+
+    <a href="matlab:doc nan">Documentation for NaN</a>
+
+lim x=2 2/x
+{Unrecognized function or variable 'lim'.
+} 
+esp(1)
+{Unrecognized function or variable 'esp'.
+} 
+exp(1)
+
+ans =
+
+    2.7183
+
+exp
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exp')" style="font-weight:bold">exp</a>
+Not enough input arguments.
+} 
+help rand
+ <strong>rand</strong> Uniformly distributed pseudorandom numbers.
+    R = <strong>rand</strong>(N) returns an N-by-N matrix containing pseudorandom values drawn
+    from the standard uniform distribution on the open interval(0,1).  <strong>rand</strong>(M,N)
+    or <strong>rand</strong>([M,N]) returns an M-by-N matrix.  <strong>rand</strong>(M,N,P,...) or
+    <strong>rand</strong>([M,N,P,...]) returns an M-by-N-by-P-by-... array.  <strong>rand</strong> returns a
+    scalar.  <strong>rand</strong>(SIZE(A)) returns an array the same size as A.
+ 
+    Note: The size inputs M, N, P, ... should be nonnegative integers.
+    Negative integers are treated as 0.
+ 
+    R = <strong>rand</strong>(..., CLASSNAME) returns an array of uniform values of the 
+    specified class. CLASSNAME can be 'double' or 'single'.
+ 
+    R = <strong>rand</strong>(..., 'like', Y) is an array of uniform values with the same
+    data type and complexity (real or complex) as the numeric variable Y.
+ 
+    The sequence of numbers produced by <strong>rand</strong> is determined by the settings of
+    the uniform random number generator that underlies <strong>rand</strong>, RANDI, and RANDN.
+    Control that shared random number generator using RNG.
+ 
+    Examples:
+ 
+       Example 1: Generate values from the uniform distribution on the
+       interval (a, b).
+          r = a + (b-a).*rand(100,1);
+ 
+       Example 2: Use the RANDI function, instead of <strong>rand</strong>, to generate
+       integer values from the uniform distribution on the set 1:100.
+          r = randi(100,1,5);
+ 
+       Example 3: Reset the random number generator used by <strong>rand</strong>, RANDI, and
+       RANDN to its default startup settings, so that <strong>rand</strong> produces the same
+       random numbers as if you restarted MATLAB.
+          rng('default')
+          rand(1,5)
+ 
+       Example 4: Save the settings for the random number generator used by
+       <strong>rand</strong>, RANDI, and RANDN, generate 5 values from <strong>rand</strong>, restore the
+       settings, and repeat those values.
+          s = rng
+          u1 = rand(1,5)
+          rng(s);
+          u2 = rand(1,5) % contains exactly the same values as u1
+ 
+       Example 5: Reinitialize the random number generator used by <strong>rand</strong>,
+       RANDI, and RANDN with a seed based on the current time.  <strong>rand</strong> will
+       return different values each time you do this.  NOTE: It is usually
+       not necessary to do this more than once per MATLAB session.
+          rng('shuffle');
+          rand(1,5)
+ 
+    See <a href="matlab:helpview([docroot '\techdoc\math\math.map'],'update_random_number_generator')">Replace Discouraged Syntaxes of rand and randn</a> to use RNG to replace
+    <strong>rand</strong> with the 'seed', 'state', or 'twister' inputs.
+ 
+    See also <a href="matlab:help randi -displayBanner">randi</a>, <a href="matlab:help randn -displayBanner">randn</a>, <a href="matlab:help rng -displayBanner">rng</a>, <a href="matlab:help RandStream -displayBanner">RandStream</a>, <a href="matlab:help RandStream/rand -displayBanner">RandStream/rand</a>,
+             <a href="matlab:help sprand -displayBanner">sprand</a>, <a href="matlab:help sprandn -displayBanner">sprandn</a>, <a href="matlab:help randperm -displayBanner">randperm</a>.
+
+    <a href="matlab:doc rand">Documentation for rand</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('rand')">Other uses of rand</a>
+
+
+doc rand
+a=rand
+
+a =
+
+    0.8147
+
+a=rand
+
+a =
+
+    0.9058
+
+a*x
+
+ans =
+
+    1.8116
+
+a*4
+
+ans =
+
+    3.6232
+
+format long
+a
+
+a =
+
+   0.905791937075619
+
+format short
+a=
+ a=
+   ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+a
+
+a =
+
+    0.9058
+
+format very short
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('format')" style="font-weight:bold">format</a>
+Invalid format option very.
+} 
+format short
+a=
+ a=
+   ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+a
+
+a =
+
+    0.9058
+
+randbet 1,5
+{Unrecognized function or variable 'randbet'.
+} 
+a=rand {1,5}
+{Brace indexing into the result of a function call is not supported. Assign the result of 'rand'
+to a variable first, then brace index into it.
+} 
+a=rand (1,5)
+
+a =
+
+    0.1270    0.9134    0.6324    0.0975    0.2785
+
+a=rand*4+1
+
+a =
+
+    3.1875
+
+a=[rand]
+
+a =
+
+    0.9575
+
+int(rand*4+1)
+{Incorrect number or types of inputs or outputs for function int.
+} 
+int(rand)
+{Incorrect number or types of inputs or outputs for function int.
+} 
+round(rand*4)
+
+ans =
+
+     4
+
+round(rand*6)
+
+ans =
+
+     6
+
+round(rand)
+
+ans =
+
+     0
+
+round(rand*4)
+
+ans =
+
+     3
+
+roundup(rand*4)
+{Unrecognized function or variable 'roundup'.
+} 
+randbet(1 and 8)
+ randbet(1 and 8)
+           ↑
+{Invalid expression. Check for missing multiplication operator, missing or unbalanced
+delimiters, or other syntax error. To construct matrices, use brackets instead of parentheses.
+} 
+flour (rand*20)
+{Unrecognized function or variable 'flour'.
+} 
+floor (rand*20)floor(rand*20)
+ floor (rand*20)floor(rand*20)
+                ↑
+{Invalid expression. Check for missing multiplication operator, missing or unbalanced
+delimiters, or other syntax error. To construct matrices, use brackets instead of parentheses.
+} 
+floor (rand*20)
+
+ans =
+
+    18
+
+A=[1,2;3,4]
+
+A =
+
+     1     2
+     3     4
+
+A=(1,2;3,4)
+ A=(1,2;3,4)
+     ↑
+{Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+} 
+A=[1,2,3;4,5,6]
+
+A =
+
+     1     2     3
+     4     5     6
+
+rand[2,2]
+ rand[2,2]
+     ↑
+{Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+} 
+rand(2,2)
+
+ans =
+
+    0.7922    0.6557
+    0.9595    0.0357
+
+rand(2,2)*4+1
+
+ans =
+
+    4.3965    3.7149
+    4.7360    4.0310
+
+round(rand(2,2)*4+1)
+
+ans =
+
+     4     4
+     3     2
+
+randi(3,4)
+
+ans =
+
+     3     1     3     3
+     1     3     1     3
+     1     3     2     1
+     1     1     2     2
+
+randi[2,6]
+ randi[2,6]
+      ↑
+{Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+} 
+randi([]3,6)
+ randi([]3,6)
+         ↑
+{Invalid expression. Check for missing multiplication operator, missing or unbalanced
+delimiters, or other syntax error. To construct matrices, use brackets instead of parentheses.
+} 
+randi([3,6])
+
+ans =
+
+     4
+
+round(rand*10)
+
+ans =
+
+     6
+
+
+ans
+
+ans =
+
+     6
+
+ans
+
+ans =
+
+     6
+
+ans
+
+ans =
+
+     6
+
+round(rand*100)
+
+ans =
+
+    71
+
+x=3
+
+x =
+
+     3
+
+x='3'
+
+x =
+
+    '3'
+
+x='school'
+
+x =
+
+    'school'
+
+x*4
+
+ans =
+
+   460   396   416   444   444   432
+
+x
+
+x =
+
+    'school'
+
+x-1
+
+ans =
+
+   114    98   103   110   110   107
+
+x
+
+x =
+
+    'school'
+
+x='3'
+
+x =
+
+    '3'
+
+'a'<'c'
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+helpPopup logical
+'a'>'c'
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+3>5
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+5<9
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+class(ans)
+
+ans =
+
+    'logical'
+
+diary jan22
+2<4 || 4>5
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+2>4 $$ 4>5
+ 2>4 $$ 4>5
+     ↑
+{Error: Invalid text character. Check for unsupported symbol, invisible character, or pasting of
+non-ASCII characters.
+} 
+% $$ mean and
+2>4 $$ 4>5
+ 2>4 $$ 4>5
+     ↑
+{Error: Invalid text character. Check for unsupported symbol, invisible character, or pasting of
+non-ASCII characters.
+} 
+2>4 && 4>5
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+diary jan 22
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diary')" style="font-weight:bold">diary</a>
+Too many input arguments.
+} 
+diary off

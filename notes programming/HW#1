@@ -1,0 +1,236 @@
+%HW Q1
+x=2;
+y=5;
+a=(y^3)*x/(y+x^2)
+
+
+ 
+%HW Q1
+x=2;
+y=5;
+a=(y^3)*x/(y+x^2);
+
+a
+
+a =
+
+   27.7778
+
+
+a =
+ a =
+    ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+ 
+%HW Q1
+x=2;
+y=5;
+a=(y^3)*x/(y+x^2);
+
+a
+
+a =
+
+   27.7778
+
+
+a =
+ a =
+    ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+(x-y^(1/2))^(1/2)
+
+ans =
+
+   0.0000 + 0.4859i
+
+
+ans =
+ ans =
+      ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+clear all
+clc
+HW1
+
+ans =
+
+   27.7778
+
+HW1
+
+ans =
+
+   27.7778
+
+
+ans =
+
+   0.0000 + 0.4859i
+
+HW1
+
+ans =
+
+   27.7778
+
+
+ans =
+
+   0.0000 + 0.4859i
+
+
+ans =
+
+    14
+
+HW1
+
+ans =
+
+   27.7778
+
+
+ans =
+
+   0.0000 + 0.4859i
+
+
+ans =
+
+    14
+
+
+ans =
+
+    2.2764
+
+clear all
+help temp
+--- <strong>temp</strong> not found. Showing help for <strong>stem</strong> instead. ---
+
+ <strong>stem</strong> Plot discrete sequence data
+    <strong>stem</strong>(Y) plots the data sequence, Y, as stems that extend from a
+    baseline along the x-axis. The data values are indicated by circles
+    terminating each stem.
+ 
+    <strong>stem</strong>(X,Y) plots the data sequence, Y, at values specified by X. The X
+    and Y inputs must be vectors or matrices of the same size.
+    Additionally, X can be a row or column vector and Y must be a matrix
+    with length(X) rows.
+ 
+    <strong>stem</strong>(___,'filled') fills the circles. Use this option with any of the
+    input argument combinations in the previous syntaxes.
+ 
+    <strong>stem</strong>(___,LineSpec) specifies the line style, marker symbol, and color.
+ 
+    <strong>stem</strong>(tbl,xvar,yvar) plots the variables xvar and yvar from the table
+    tbl. To plot one data set, specify one variable for xvar and one
+    variable for yvar. To plot multiple data sets, specify multiple
+    variables for xvar, yvar, or both. If both arguments specify multiple
+    variables, they must specify the same number of variables.
+ 
+    <strong>stem</strong>(tbl,yvar) plots the specified variable from the table against the
+    row indices of the table. If the table is a timetable, the specified
+    variable is plotted against the row times of the timetable.
+ 
+    <strong>stem</strong>(___,Name,Value) modifies the stem chart using one or more
+    Name,Value pair arguments.
+ 
+    <strong>stem</strong>(ax,___) plots into the axes specified by ax instead of into the
+    current axes (gca). The option, ax, can precede any of the input
+    argument combinations in the previous syntaxes.
+ 
+    h = <strong>stem</strong>(___) returns a vector of Stem objects in h. Use h to modify
+    the stem chart after it is created.
+ 
+    See also <a href="matlab:help plot -displayBanner">plot</a>, <a href="matlab:help bar -displayBanner">bar</a>, <a href="matlab:help stairs -displayBanner">stairs</a>.
+
+    <a href="matlab:doc stem">Documentation for stem</a>
+
+doc stem
+Jan27Ex1
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Jan27Ex1.m',10,4)">File: Jan27Ex1.m Line: 10 Column: 4</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+HW1
+{Unrecognized function or variable 'Q1'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 2)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',2,0)">line 2</a>)
+Q1
+} 
+help fprintf
+ <strong>fprintf</strong> Write formatted data to text file.
+    <strong>fprintf</strong>(FID, FORMAT, A, ...) applies the FORMAT to all elements of array A and
+    any additional array arguments in column order, and writes the data to a text
+    file.  FID is an integer file identifier.  Obtain FID from FOPEN, or set it to 1
+    (for standard output, the screen) or 2 (standard error). <strong>fprintf</strong> uses the
+    encoding scheme specified in the call to FOPEN.
+ 
+    <strong>fprintf</strong>(FORMAT, A, ...) formats data and displays the results on the screen.
+ 
+    COUNT = <strong>fprintf</strong>(...) returns the number of bytes that <strong>fprintf</strong> writes.
+ 
+    FORMAT is a character vector that describes the format of the output fields, and
+    can include combinations of the following:
+ 
+       * Conversion specifications, which include a % character, a
+         conversion character (such as d, i, o, u, x, f, e, g, c, or s), and optional
+         flags, width, and precision fields.  For more details, type "doc fprintf" at
+         the command prompt.
+ 
+       * Literal text to print.
+ 
+       * Escape characters, including:
+             \b     Backspace            ''   Single quotation mark
+             \f     Form feed            %%   Percent character
+             \n     New line             \\   Backslash
+             \r     Carriage return      \xN  Hexadecimal number N
+             \t     Horizontal tab       \N   Octal number N
+         For most cases, \n is sufficient for a single line break. However, if you
+         are creating a file for use with Microsoft Notepad, specify a combination of
+         \r\n to move to a new line.
+ 
+    Notes:
+ 
+    If you apply an integer or text conversion to a numeric value that contains a
+    fraction, MATLAB overrides the specified conversion, and uses %e.
+ 
+    Numeric conversions print only the real component of complex numbers.
+ 
+    Example: Create a text file called exp.txt containing a short table of the
+    exponential function.
+ 
+        x = 0:.1:1;
+        y = [x; exp(x)];
+        fid = fopen('exp.txt','w');
+        fprintf(fid,'%6.2f  %12.8f\n',y);
+        fclose(fid);
+ 
+    Examine the contents of exp.txt:
+ 
+        type exp.txt
+ 
+    MATLAB returns:
+           0.00    1.00000000
+           0.10    1.10517092
+                ...
+           1.00    2.71828183
+ 
+    See also <a href="matlab:help fopen -displayBanner">fopen</a>, <a href="matlab:help fclose -displayBanner">fclose</a>, <a href="matlab:help fscanf -displayBanner">fscanf</a>, <a href="matlab:help fread -displayBanner">fread</a>, <a href="matlab:help fwrite -displayBanner">fwrite</a>, <a href="matlab:help sprintf -displayBanner">sprintf</a>, <a href="matlab:help disp -displayBanner">disp</a>.
+
+    <a href="matlab:doc fprintf">Documentation for fprintf</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('fprintf')">Other uses of fprintf</a>
+
+doc fprintf
+Unrecognized function or variable 'Q1'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 2)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',2,0)">line 2</a>)
+Q1
+Jan29
+hello, MATLAB!/n
+diary jan29
