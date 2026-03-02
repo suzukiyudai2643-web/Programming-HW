@@ -36,3 +36,5 @@ fprintf('value=%e\n', x)
 fprintf('value=%f\n',x)
 fprintf('value=%g\n',x)
 fprintf('value=%12.4f\n',x)
+fprintf('value=%s\n',x)
+
