@@ -9,6 +9,8 @@ fprintf('The value of x is%d \n',x);
 % here %d for print integer
 y=3.14159;
 fprintf('The value of y is%f \n',y);
+fprintf('The value of y is%d \n',y);
+
 %here %f give me a floating point number 6 disites
 
 %% example 3
