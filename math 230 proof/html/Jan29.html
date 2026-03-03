@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      -->
+<title>Jan29</title>
+<meta name="generator" content="MATLAB 23.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2026-01-29">
+<meta name="DC.source" content="Jan29.m">
+<style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="content">
+<h2>Contents</h2>
+<div>
+<ul>
+<li>
+<a href="#1">example 1</a>
+</li>
+<li>
+<a href="#2">example 2</a>
+</li>
+<li>
+<a href="#3">example 3</a>
+</li>
+<li>
+<a href="#4">example 4</a>
+</li>
+<li>
+<a href="#5">example 5</a>
+</li>
+<li>
+<a href="#6">example 6</a>
+</li>
+<li>
+<a href="#7">example 7</a>
+</li>
+<li>
+<a href="#8">example 8</a>
+</li>
+<li>
+<a href="#9">example 9</a>
+</li>
+<li>
+<a href="#10">example 10</a>
+</li>
+<li>
+<a href="#11">example 11</a>
+</li>
+<li>
+<a href="#12">example12</a>
+</li>
+</ul>
+</div>
+<h2 id="1">example 1</h2>
+<p>using fprintf</p>
+<pre class="codeinput">fprintf(<span class="string">'hello, MATLAB!\n'</span>)
+<span class="comment">% here /n moves to a new line</span>
+</pre>
+<pre class="codeoutput">hello, MATLAB!
+</pre>
+<h2 id="2">example 2</h2>
+<pre class="codeinput">x=5;
+fprintf(<span class="string">'The value of x is%d \n'</span>,x);
+<span class="comment">% here %d for print integer</span>
+y=3.14159;
+fprintf(<span class="string">'The value of y is%f \n'</span>,y);
+<span class="comment">%here %f give me a floating point number 6 disites</span>
+</pre>
+<pre class="codeoutput">The value of x is5 
+The value of y is3.141590 
+</pre>
+<h2 id="3">example 3</h2>
+<pre class="codeinput">
+<span class="comment">%control decimal places</span>
+fprintf(<span class="string">'y=%.2f \n'</span>,y);
+<span class="comment">% %n means 2 decimal places</span>
+</pre>
+<pre class="codeoutput">y=3.14 
+</pre>
+<h2 id="4">example 4</h2>
+<p>printing multiple values</p>
+<pre class="codeinput">a=2;
+b=7.5;
+fprintf(<span class="string">'a=%d, b=%.2f \n'</span>,a,b);
+<span class="comment">% f to control the decimal places</span>
+</pre>
+<pre class="codeoutput">a=2, b=7.50 
+</pre>
+<h2 id="5">example 5</h2>
+<p>printing text and strings</p>
+<pre class="codeinput">name=<span class="string">'Yudai'</span>;
+fprintf(<span class="string">'Hello %s !\n'</span>,name);
+tt=<span class="string">'Today is a nice day'</span>;
+fprintf(<span class="string">'What is today     %s \n'</span>,tt);
+</pre>
+<pre class="codeoutput">Hello Yudai !
+What is today     Today is a nice day 
+</pre>
+<h2 id="6">example 6</h2>
+<p>formatting alignment</p>
+<pre class="codeinput">fprintf(<span class="string">'% 10s %6.2f \n'</span>,<span class="string">'Score:'</span>,92.5);
+<span class="comment">% %6.2 means 6 for integer 2 for decimal places</span>
+<span class="comment">% 10s means the length of the charactor I put (the normal length is 16 is general)</span>
+</pre>
+<pre class="codeoutput">    Score:  92.50 
+</pre>
+<h2 id="7">example 7</h2>
+<p>using disp</p>
+<pre class="codeinput">disp(<span class="string">'Hello eveyone'</span>)
+</pre>
+<pre class="codeoutput">Hello eveyone
+</pre>
+<h2 id="8">example 8</h2>
+<pre class="codeinput">v=[1,2,3,4];
+disp(v)
+
+A=[1,2;3,4];
+disp(A)
+</pre>
+<pre class="codeoutput">     1     2     3     4
+
+     1     2
+     3     4
+
+</pre>
+<h2 id="9">example 9</h2>
+<pre class="codeinput">
+<span class="comment">% can I use disp in this way</span>
+disp(<span class="string">'x='</span>+x)
+<span class="comment">% correct way</span>
+disp(([<span class="string">'x= '</span>,num2str(x)]))
+</pre>
+<pre class="codeoutput">   125    66
+
+x= 5
+</pre>
+<h2 id="10">example 10</h2>
+<pre class="codeinput">r=5;
+area = pi*r^2;
+disp([<span class="string">' the area of the circle is'</span>,num2str(area)]);
+fprintf(<span class="string">'the area of the circle is %f \n'</span>,area);
+</pre>
+<pre class="codeoutput"> the area of the circle is78.5398
+the area of the circle is 78.539816 
+</pre>
+<h2 id="11">example 11</h2>
+<pre class="codeinput">a=7;
+disp(a&gt;5)
+disp(a&lt;5)
+
+<span class="comment">% for logial, 1 means true and 0 means false</span>
+</pre>
+<pre class="codeoutput">   1
+
+   0
+
+</pre>
+<h2 id="12">example12</h2>
+<p>what is the out put for</p>
+<pre class="codeinput">disp(<span class="string">' '</span>)
+disp(<span class="string">'new section starts here'</span>)
+</pre>
+<pre class="codeoutput"> 
+new section starts here
+</pre>
+<p class="footer">
+<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
+<br>
+</p>
+</div>
+<!--
+##### SOURCE BEGIN #####
+%% example 1
+% using fprintf
+fprintf('hello, MATLAB!\n')
+% here /n moves to a new line
+
+%% example 2
+x=5;
+fprintf('The value of x is%d \n',x);
+% here %d for print integer
+y=3.14159;
+fprintf('The value of y is%f \n',y);
+%here %f give me a floating point number 6 disites
+
+%% example 3
+
+%control decimal places
+fprintf('y=%.2f \n',y);
+% %n means 2 decimal places
+
+%% example 4 
+% printing multiple values
+a=2;
+b=7.5;
+fprintf('a=%d, b=%.2f \n',a,b);
+% f to control the decimal places
+
+%% example 5
+% printing text and strings
+
+name='Yudai';
+fprintf('Hello %s !\n',name);
+tt='Today is a nice day';
+fprintf('What is today     %s \n',tt);
+
+%% example 6
+% formatting alignment
+fprintf('% 10s %6.2f \n','Score:',92.5);
+% %6.2 means 6 for integer 2 for decimal places
+% 10s means the length of the charactor I put (the normal length is 16 is general)
+
+%% example 7
+% using disp
+disp('Hello eveyone')
+
+%% example 8
+v=[1,2,3,4];
+disp(v)
+
+A=[1,2;3,4];
+disp(A)
+
+%% example 9
+
+
+% can I use disp in this way 
+disp('x='+x)
+% correct way
+disp((['x= ',num2str(x)]))
+
+%% example 10
+
+r=5;
+area = pi*r^2;
+disp([' the area of the circle is',num2str(area)]);
+fprintf('the area of the circle is %f \n',area);
+
+%% example 11
+a=7;
+disp(a>5)
+disp(a<5)
+
+% for logial, 1 means true and 0 means false
+
+%% example12
+% what is the out put for 
+disp(' ')
+disp('new section starts here')
+
+
+##### SOURCE END #####
+-->
+</body>
+</html>

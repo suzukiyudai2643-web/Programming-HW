@@ -1,0 +1,817 @@
+dairy close
+{Unrecognized function or variable 'dairy'.
+} 
+clc
+Jan27Ex2(10,10)
+{Unrecognized function or variable 'Jan27Ex2'.
+} 
+Jan27Ex1(10,10)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan27Ex1')" style="font-weight:bold">Jan27Ex1</a>
+Too many input arguments.
+} 
+Jan27Ex2(10,10)
+{Unrecognized function or variable 'Jan27Ex2'.
+} 
+Jan27Ex1(10,10)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Jan27Ex1')" style="font-weight:bold">Jan27Ex1</a>
+Too many input arguments.
+} 
+Jan27Ex1(10)
+
+ans =
+
+  314.1593
+
+Sylinder
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Sylinder', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m', 6)" style="font-weight:bold">Sylinder</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/Sylinder.m',6,0)">line 6</a>)
+A=pi*r^2;
+} 
+Jan27Ex2(10,10)
+{Unrecognized function or variable 'Jan27Ex2'.
+} 
+diary HW#1
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+
+ans =
+
+    2.2764
+
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a5.8599
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+The following error occurred converting from double to char:
+Complex values cannot be converted to chars
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 28)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',28,0)">line 28</a>)
+disp(['c)', (x*y)])
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+{Unrecognized function or variable 'xy'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 28)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',28,0)">line 28</a>)
+xy;
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+The following error occurred converting from double to char:
+Complex values cannot be converted to chars
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 30)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',30,0)">line 30</a>)
+disp(['c)', (x*y)])
+} 
+help horzcat
+ <strong>horzcat</strong> Horizontal concatenation.
+    [A B] is the horizontal concatenation of matrices A and B.  A and B
+    must have the same number of rows.  [A,B] is the same thing.  Any
+    number of matrices can be concatenated within one pair of brackets.
+    Horizontal and vertical concatenation can be combined together as in
+    [1 2;3 4].  
+ 
+    [A B; C] is allowed if the number of rows of A equals the number of
+    rows of B and the number of columns of A plus the number of columns
+    of B equals the number of columns of C.  The matrices in a
+    concatenation expression can themselves by formed via a
+    concatenation as in [A B;[C D]].  These rules generalize in a
+    hopefully obvious way to allow fairly complicated constructions.
+ 
+    N-D arrays are concatenated along the second dimension. The first and
+    remaining dimensions must match.
+ 
+    C = <strong>horzcat</strong>(A,B) is called for the syntax '[A  B]' when A or B is an
+    object.
+ 
+    Y = <strong>horzcat</strong>(X1,X2,X3,...) is called for the syntax '[X1 X2 X3 ...]'
+    when any of X1, X2, X3, etc. is an object.
+ 
+    See also <a href="matlab:help vertcat -displayBanner">vertcat</a>, <a href="matlab:help cat -displayBanner">cat</a>.
+
+    <a href="matlab:doc horzcat">Documentation for horzcat</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('horzcat')">Other uses of horzcat</a>
+
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+  15.0000 +25.0000i
+
+d)-0.31765+0.12941i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+  15.0000 +25.0000i
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 29)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',29,0)">line 29</a>)
+disp('d)',num2str(x/y))
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+The following error occurred converting from double to char:
+Complex values cannot be converted to chars
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 28)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',28,0)">line 28</a>)
+disp(['c)',x*y])
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 16)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',16,0)">line 16</a>)
+disp( )
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+{Unrecognized function or variable 'c'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 39)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',39,0)">line 39</a>)
+x=(-b+(b^2-4*a*c))/2/a;
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+{Unrecognized function or variable 'c'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 39)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',39,0)">line 39</a>)
+x=(-b+(b^2-4*a*c))/2/a;
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+{Unrecognized function or variable 'c'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 39)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',39,0)">line 39</a>)
+x=(-b+(b^2-4*a*c))/(2*a);
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+{Unrecognized function or variable 'c'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 39)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',39,0)">line 39</a>)
+x=(-b+(b^2-4*a*c)^(1/2))/(2*a);
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=-1
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=-1
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+,0.5-2.3979i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+,0.5-2.3979i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+,0.5-2.3979i
+x=,HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+,0.5-2.3979i
+x=0.500000,0.500000HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2i
+,0.5-2.3979i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+,0.5-2.3979i
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+a)x=0.5+2.3979i
+,0.5-2.3979i
+a)x=3
+,-0.5
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+x^2-x+6=0 \n x=0.5+2.3979i
+,0.5-2.3979i
+a)x=3
+,-0.5
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+a)x=3
+,-0.5
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi(x/2)^2)/2)
+x=10
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pi')" style="font-weight:bold">pi</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 56)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',56,0)">line 56</a>)
+disp('area of the window A=', num2str((x^2+pi(x/2)^2)/2))
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 56)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',56,0)">line 56</a>)
+disp('area of the window A=', num2str((x^2+pi*(x/2)^2)/2))
+} 
+HW1
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',56,60)">File: HW1.m Line: 56 Column: 60</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 56)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',56,0)">line 56</a>)
+disp('area of the window A=', num2str(((1/2*x^2+pi*(x/2)^2))))
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 56)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',56,0)">line 56</a>)
+disp('area of the window A=', num2str(((1/2*x^2+pi*(x/2)^2))))
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=128.5398
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=128.5398
+x=60/(2+pi)
+area of the window A=175.043
+HW1
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',60,62)">File: HW1.m Line: 60 Column: 62</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+HW1
+{Error: <a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',62,2)">File: HW1.m Line: 62 Column: 2</a>
+Unsupported use of the '=' operator. To compare values for equality, use '=='. To specify name-value arguments,
+check that name is a valid identifier with no surrounding quotes.
+} 
+HW1
+{Error: <a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',62,2)">File: HW1.m Line: 62 Column: 2</a>
+Unsupported use of the '=' operator. To compare values for equality, use '=='. To specify name-value arguments,
+check that name is a valid identifier with no surrounding quotes.
+} 
+HW1
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',58,62)">File: HW1.m Line: 58 Column: 62</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+HW1
+{<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',59,62)">File: HW1.m Line: 59 Column: 62</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=82.1903
+x=60/(2+pi)
+area of the window A=175.043
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=82.1903
+x=60/(2+pi)
+area of the window A=175.043
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+    3.1416
+
+    2.7183
+
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=82.1903
+x=60/(2+pi)
+area of the window A=175.043
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HW1', '/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m', 24)" style="font-weight:bold">HW1</a> (<a href="matlab: opentoline('/Users/yudaisuzuki/Documents/MATLAB/math 230 proof/HW1.m',24,0)">line 24</a>)
+disp('x=',x)
+} 
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+x=
+y=
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=82.1903
+x=60/(2+pi)
+area of the window A=175.043
+HW1
+a)27.7778
+b)0+0.48587i
+c)14
+d)2.2764
+ 
+x=3.1416
+y=2.7183
+ 
+a)5-4i
+b)-7+10i
+c)15+25i
+d)-0.31765+0.12941i
+ 
+x^2-x+6=0  x=0.5+2.3979i
+,0.5-2.3979i
+2x^2-5x-3=0 x=3
+,-0.5
+ 
+(x^2+pi*(x/2)^2)/2)
+x=10
+area of the window A=82.1903
+x=60/(2+pi)
+area of the window A=175.043
+clc
+diary Feb3
