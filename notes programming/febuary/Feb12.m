@@ -22,8 +22,9 @@ disp(s)
 s=0;
 for i=2:2:10
     s=s+i;
+    disp(s)
 end
-disp(s)
+
 %% Emaple 4 create a vector
 v=zeros(1,5);
 k=1;

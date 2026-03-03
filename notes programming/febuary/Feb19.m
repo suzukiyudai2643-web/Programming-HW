@@ -1,11 +1,11 @@
 %% Example 1
-% % multiplication table 1-5
-% for i=1:5
-%     for j=1:5
-%         fprintf('%4d',i*j);
-%     end
-%     fprintf('\n');
-% end
+% multiplication table 1-5
+for i=1:5
+    for j=1:5
+        fprintf('%4d',i*j);
+    end
+    fprintf('\n');
+end
 
 %% Example 2
 % % only print even products
@@ -24,43 +24,43 @@
 % end
 
 %% Example 3
-% % simple counter grid
-% i=1;
-% while i<=3
-%     j=1;
-%     while j<=4
-%         fprintf('(%d,%d)',i,j);
-%         j=j+1;
-%     end
-%     fprintf('\n');
-%     i=i+1;
-% end
+% simple counter grid
+i=1;
+while i<=3
+    j=1;
+    while j<=4
+        fprintf('(%d,%d)',i,j);
+        j=j+1;
+    end
+    fprintf('\n');
+    i=i+1;
+end
 
 %% Example 3: print numbers >5
 
-% i=1;
-% while i<=4
-%     j=1;
-%     while j<=4
-%         value=i+j;
-%         if value >5
-%             fprintf('%d ', value)
-%         end
-%         j=j+1;
-%     end
-%     fprintf('\n')
-%     i=i+1;
-% end
+i=1;
+while i<=4
+    j=1;
+    while j<=4
+        value=i+j;
+        if value >5
+            fprintf('%d ', value)
+        end
+        j=j+1;
+    end
+    fprintf('\n')
+    i=i+1;
+end
 
 %% Example 4:
-% i=1;
-% j=1;
-% for i=1:4
-%     for j=1:i
-%         fprintf('%d ',j)
-%     end
-%     fprintf('\n')
-% end
+i=1;
+j=1;
+for i=1:4
+    for j=1:i
+        fprintf('%d ',j)
+    end
+    fprintf('\n')
+end
 
 %% Example 5 print prime numbers
 % i=1;

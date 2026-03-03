@@ -17,7 +17,7 @@ x=0:0.01:2*pi;
 plot(x,sin(x))
 
 %% Example 2
-
+x=0:0.01:2*pi;
 plot(x,sin(x),x,cos(x))
 legend('sin(x)','cos(x)')
 
@@ -57,7 +57,7 @@ ylabel('sin(t)')
 
 % damped osillation
 x=0:0.01:10;
-y=exp(-0.3*x).*sin(5*x);
+y=exp(-.3*x).*sin(5*x);
 % put [.] infront of multiplication or devision
 
 plot(x,y)
@@ -68,7 +68,7 @@ ylabel('y')
 %% Example 6
 % multiple curves from a matrix
 
-x=linspace(0,2*pi,10);
+x=linspace(0,2*pi,100);
 % linspace(from,up to, how many dots to plot)
 Y=[sin(x);cos(x);sin(2*x)];
 
