@@ -192,13 +192,13 @@ end
 disp(v)
 
 %% prime number table
-A=zeros(15,15);
+A=zeros(10,10);
 i=1;
 
 k=1;
-while i<=15
+while i<=10
     j=1;
-    while j<=15
+    while j<=10
         if isprime(k)==1
             A(i,j)=k;
             k=k+1;
