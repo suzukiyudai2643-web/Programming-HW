@@ -4,7 +4,7 @@ b=6.42;
 c=a/b;
 d=0.5*(c*b+2*a);
 % a) 
-x=d-((a+b)/c)+((a+b)^2)/sqrt(abs(a*b*c));
+x=d-((a+b)/c)+((a+d)^2)/sqrt(abs(a*b*c));
 disp(x)
 % answer -23.8307
 
