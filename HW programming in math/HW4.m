@@ -46,7 +46,29 @@ else
     disp('invalid number')
 end
 
+%% Q3
 
+n=input('enter values in vector form: ');
+sum=0;
+for i=1:length(n)
+    sum=sum+(n(i)).^2;
+end
+rms=sqrt(1/length(n)*sum);
+fprintf('the root-mean-square is %f\n',rms)
+%enter values in matrix form: [10 5 2 5]
+%the root-mean-square is 6.204837
+
+%% Q4
+
+n=input('enter values in vector form: ');
+sum=0;
+for i=1:length(n)
+    sum=sum+1/n(i);
+end
+h=length(n)/sum;
+fprintf('harmonic mean is %f\n', h)
+% enter values in matrix form: [10 5 2 5]
+% harmonic mean is 4.000000
 
 
 

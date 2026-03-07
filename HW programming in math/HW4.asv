@@ -46,7 +46,12 @@ else
     disp('invalid number')
 end
 
+%% Q3
 
+n=input('enter values in matrix form: ');
+
+for i=1:lenth(n)
+    sum=
 
 
 
