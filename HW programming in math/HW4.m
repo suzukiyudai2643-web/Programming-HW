@@ -45,6 +45,14 @@ elseif mod(n,1)==0
 else 
     disp('invalid number')
 end
+%input which term you pick: 3.3
+%invalid number
+%input which term you pick: 1
+%n has to be greater than 2
+%input which term you pick: 22
+%the 22nd term of fibonacci sequence is 28657
+%input which term you pick: 34
+%the 34th term of fibonacci sequence is 9227465
 
 %% Q3
 
