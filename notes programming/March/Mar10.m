@@ -1,0 +1,79 @@
+%% Example 1: animate a moving sine wave
+
+x=linspace(0,2*pi,200);
+for t=0:0.1:4*pi
+    y=sin(x-t);
+    plot(x,y,'LineWidth',2);
+    ylim([-1.5,1.5]);
+    title(['y=sin(x-',num2str(t,'%.1f'),')'])
+    grid on
+    pause(0.1); % control animation speed
+
+end
+
+%% Example 2: aniimate a rotating vedtor
+r=1; % radius
+for theta=0:0.1:2*pi
+    x=[0 r*cos(theta)];
+    y=[0 r*sin(theta)];
+    plot(x,y,'b','LineWidth',2)
+    hold on
+    plot(r*cos(theta),r*sin(theta),'ro','MarkerFaceColor','r');
+    hold off
+    axis equal;
+    axis([-1.5 1.5 -1.5 1.5]);
+    grid on
+    title(['Rotating Vector; \theta=',num2str(theta,'%.2f')]);
+    pause(0.05);
+end
+
+%% Example 3: animate a converegnce a sequence
+n=1:100;
+limit=1;
+for i=1:length(n)
+    a=1-1./n(1:i);
+    plot(n(1:i),a,'bo-','LineWidth',2)
+    hold on 
+    yline(limit,'r--','Limit=1');
+    hold off
+    xlabel('n')
+    ylabel('a_n')
+    title('Conbeergence of Sequence a_n=1-1/n')
+    ylim([0.5 1.1]);
+    grid on
+    pause(0.0001)
+end
+
+%% Example 4: Bouncing ball
+g=9.8; % gravity
+v0=15; % initial velocity
+y0=0; % starting position
+vx=1;
+dt=0.02;
+t=0;
+y=y0;
+v=v0;
+hold on
+axis([0 10 0 12])
+ball=plot(x,y,'ro','MarkerFaceColor','black','MarkerSize',20);
+ground=yline(0,'k','LineWidth',2);
+title('Vouncing Ball Simulation')
+while t<=10
+    v=v-g*dt;
+    y=y+v*dt;
+    x=x+vx*dt;
+    % Bounce when hitting the ground
+    if y<=0
+        y=0;
+        v=-0.8*v; % loosing velocity when it hit the ground
+
+    end
+
+    % update bal position
+    set(ball,'YData',y);
+    pause(0.01)
+    t=t+dt;
+end
+
+
+
