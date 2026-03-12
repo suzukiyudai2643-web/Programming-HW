@@ -45,14 +45,14 @@ elseif mod(n,1)==0
 else 
     disp('invalid number')
 end
-%input which term you pick: 3.3
-%invalid number
-%input which term you pick: 1
-%n has to be greater than 2
-%input which term you pick: 22
-%the 22nd term of fibonacci sequence is 28657
-%input which term you pick: 34
-%the 34th term of fibonacci sequence is 9227465
+% input which term you pick: 3.3
+% invalid number
+% input which term you pick: 1
+% n has to be greater than 2
+% input which term you pick: 22
+% the 22nd term of fibonacci sequence is 28657
+% input which term you pick: 34
+% the 34th term of fibonacci sequence is 9227465
 
 %% Q3
 
@@ -63,8 +63,8 @@ for i=1:length(n)
 end
 rms=sqrt(1/length(n)*sum);
 fprintf('the root-mean-square is %f\n',rms)
-%enter values in matrix form: [10 5 2 5]
-%the root-mean-square is 6.204837
+% enter values in matrix form: [10 5 2 5]
+% the root-mean-square is 6.204837
 
 %% Q4
 
