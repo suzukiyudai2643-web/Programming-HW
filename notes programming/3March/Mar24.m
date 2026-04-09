@@ -24,7 +24,7 @@ for k=1:x
 end
 fprintf('%d!=%f\n',x,f)
 a=log10(f);
-if f==1
+if x==1
     disp(1)
 else
     disp(ceil(a))
@@ -66,10 +66,24 @@ while i<=p-2
 end
 
 
+%% zeros
+
+A=zeros(2,3);
+disp(A)
 
 
 
+%% find targets in input vector
+A=input('input with square bracket: ');
+target=input('input target: ');
+for i=1:length(A)
+    if target==A(i)
+        fprintf('target %d found at %d\n',i,A(i))
+    end
+end
 
+
+    
 
 
 

@@ -107,7 +107,7 @@ for i=1:length(A)
     end
 end
 
-%% subplot
+%% 
 clear 
 clc
 x=0:0.01:2*pi;
@@ -126,7 +126,7 @@ xlabel('x')
 ylabel('y')
 gtext('y=x')
 
-%% plot
+%%
 clear 
 clc
 x=0:0.01:1;
