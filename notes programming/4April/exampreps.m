@@ -391,13 +391,13 @@ clc
 x=0:0.01:2*pi;
 y1=x.^2;
 y2=x;
-subplot(2,2,1)
+subplot(1,2,1)
 plot(x,y1)
 title('y=x^2')
 xlabel('x')
 ylabel('y')
 gtext('y=x^2')
-subplot(2,2,2)
+subplot(1,2,2)
 plot(x,y2)
 title('y=x')
 xlabel('x')
@@ -423,7 +423,8 @@ gtext('y=x')
 
 A=zeros(2,3);
 disp(A)
-
+B=zeros(1,4);
+disp(B)
 
 
 %% find targets in input vector
@@ -434,3 +435,10 @@ for i=1:length(A)
         fprintf('target %d found at %d\n',i,A(i))
     end
 end
+
+%% 
+clear 
+clc
+linspace(0,2)
+%% 
+randi([1,9],1)

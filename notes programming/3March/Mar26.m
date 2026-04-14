@@ -121,7 +121,8 @@ end
 
 
 %% example 6
-
+clc 
+clear
 f=@(x) x^2;
 a=input('enter the first end of the interval');
 b=input('enter the end of the interval');
