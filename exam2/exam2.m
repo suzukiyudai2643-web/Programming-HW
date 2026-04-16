@@ -18,11 +18,13 @@ n=0;
 k=0;
 while k<10
     if n^2>3000
-        fprintf('%d\n ',n^2)
+        
+        fprintf('%d\n',n)
         k=k+1;
 
     end
     n=n+1;
+    
 end
 % 3025
 % 3136
@@ -68,29 +70,38 @@ ylabel('the approximated value')
 
 
 %% Q4
-clear 
+% clear 
+% clc
+% n=1;
+% p=0;
+% x=1.5;
+% while true
+%     p=0;
+% 
+%     for i=1:n
+%         x=1.5;
+% 
+%     p=p+(-1)^(i+1)/i*(x-1)^i;
+%     end
+%     end
+%     if abs(0.40546511-p)<10^(-5)
+%     fprintf('the approximation needed %d terms and was: %f\n',n,p)
+%     break
+%     end
+% 
+% n=n+1;
+% end
+% 
+% % the approximation needed 12 terms and was: 0.40545
+
+%% Q4
+
+clear
 clc
-n=1;
-p=0;
-x=1.5;
-while true
-    p=0;
+
+
+for n=1:4
+    p0=0;
     
-    for i=1:n
-    p=p+(-1)^(i+1)/i*(x-1)^i;
-    subplot(3,4,i)
-    plot(i,p,'*')
-    title('lnx')
-    xlabel('i')
-    ylabel('lnx')
-    legend('N=i')
-    end
-    if abs(0.40546511-p)<10^(-5)
-    fprintf('the approximation needed %d terms and was: %f\n',n,p)
-    break
-    end
+    subplot(2,2,n)
 
-n=n+1;
-end
-
-% the approximation needed 12 terms and was: 0.405459

@@ -1,0 +1,154 @@
+%% Example 1
+% clear
+% clc
+% 
+% % global variable 
+% 
+% global x
+% x=10;
+% myfunction()
+% function myfunction()
+% global x
+% x=x+5;
+% end
+
+%% Example 2
+% clear 
+% clc
+% global counter
+% counter=0;
+% increment();
+% decrement();
+% 
+% disp(counter)
+% 
+% function increment()
+% global counter
+% counter=counter+1;
+% end
+% 
+% function decrement()
+% global counter
+% counter=counter-1;
+% end
+
+%% Example 3
+
+% kind of nested loop
+% 
+% clear
+% clc
+% 
+% global total
+% total=0;
+% for i=1:5
+%     addToTotal(i);
+% end
+% disp(total)
+% 
+% function addToTotal(n)
+% global total
+% total=total+n;
+% end
+
+%% Example 4
+% global a b
+% a=3;
+% b=4;
+% compute();
+% disp(a)
+% disp(b)
+% function compute()
+% global a b 
+% a=a+b;
+% b=a*b;
+% end
+
+
+%% Example 5
+clear 
+clc
+% 
+% 
+% global x
+% x=1;
+% x=x+1;
+% disp(x)
+% wrongExample
+% function wrongExample()
+% global x
+% x=x+1;
+% disp(x)
+% x=5;
+% disp(x)
+% end
+%% Example 6
+% global x
+% x=100;
+% clear global x
+
+%% Example 7
+% global a
+% a=2;
+% for x=0:5
+%     y=myFunc(x);
+%     disp([x,y])
+% end
+% function y=myFunc(x)
+% global a
+% y=a*x^2+2*x+2;
+% end
+% 
+% 
+% global total
+% total=0;
+% for i=1:5
+%     addToTotal(i);
+% end
+% disp(total)
+% 
+% function addToTotal(n)
+% global total
+% total=total+n;
+% end
+%% Example 8
+% 
+% global total
+% total=0;
+% for i=1:5
+%     addtotal(i^3)
+% end
+% disp(total)
+% 
+% function addtotal(i)
+% global total
+% total=total+i;
+% end
+
+
+%% Example 8'
+% 
+% sum=0;
+% 
+% for i=1:5
+%     sum=sum+i^3;
+% end
+% disp(sum)
+% 
+% 
+
+%% Example 9
+
+global op
+
+op='mul';
+result=calc(4,3);
+disp(result)
+
+function r=calc(a,b)
+global op
+switch op
+    case 'add'
+    case 'sub'
+    case 'mul'
+    case 'di'
