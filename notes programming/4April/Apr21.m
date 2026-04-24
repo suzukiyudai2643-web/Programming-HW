@@ -77,20 +77,24 @@ disp(sum)
 % fprintf('the value exceeded when n=%d, sum value is %d\n',n,sum)
 
 %% example 5'
-global limit
-limit=input('enter a global limit: ');
-
-sum=0;
-i=1;
-while true 
-    sum=sum+i;
-    if checkLimit(sum)
-        break
-    end
-    i=i+1;
-end
-disp(sum)
-function flag=checkLimit(x)
-global limit
-flag=x>limit;
+% global limit
+% limit=input('enter a global limit: ');
+% 
+% sum=0;
+% i=1;
+% while true 
+%     sum=sum+i;
+%     if checkLimit(sum)
+%         break
+%     end
+%     i=i+1;
+% end
+% disp(sum)
+% function flag=checkLimit(x)
+% global limit
+% flag=x>limit;
+% end
+%%
+for i=20:1
+    disp(i)
 end

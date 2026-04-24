@@ -1,44 +1,62 @@
 %% primary thought
 clear
 clc
-squarenumbers=(1:2:1001).^2;
-disp(squarenumbers)
+
 
 c=input('enter a natural nubmer: ');
-factor=1;
+disp(prime_check(c))
+function prime_factor=prime_check(c)
+squarenumbers=(0:floor(c/3)).^2;
+
+pf={};
 while true
+
     if c==1
         fprintf('\n')
-        disp('program success')
         break
     end
     if mod(c,2)==0
+        
         c=c/2;
-        factor=factor*2;
-        fprintf('%d,',factor)
+        
+        pf{end+1}=2;
         continue
     end
     k=floor(c/3);
-    for a=1:k
-        B=c-a^2;
+    a=k;
+    while a^2-c>=0
+        B=a^2-c;
         exists=any(squarenumbers==B);
         if exists==1
             b=find(squarenumbers==B);
-            c1=a+b;
+            c2=a+b;
             c=a-b;
-            fprintf('%d,%d,',c1,c)
-
-        elseif B<0
-            fprintf('%d,',a)
-            c=1;
-        elseif exists==0
-            continue
+            
+            break
         
         end
+        a=a-1;
     end
+    if isprime(c)==0
+        pf{end+1}=prime_check(c);
+
+
+    else
+        pf{end+1}=c;
+
+    end
+    if isprime(c2)==0
+        pf{end+1}=prime_check(c2);
+
+
+    else
+        pf{end+1}=c2;
+        break
+
+    end
+
 end
 
+prime_factor=pf;
+end
 
-    
-
-    
