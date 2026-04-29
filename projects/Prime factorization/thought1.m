@@ -3,12 +3,12 @@ clear
 clc
 
 
-c=input('enter a natural nubmer: ');
-disp(prime_check(c))
-function prime_factor=prime_check(c)
+c=input('enter a positive integer: ');
+
+
 squarenumbers=(0:floor(c/3)).^2;
 
-pf={};
+pf=[];
 while true
 
     if c==1
@@ -19,7 +19,7 @@ while true
         
         c=c/2;
         
-        pf{end+1}=2;
+        pf(end+1)=2
         continue
     end
     k=floor(c/3);
@@ -28,7 +28,8 @@ while true
         B=a^2-c;
         exists=any(squarenumbers==B);
         if exists==1
-            b=find(squarenumbers==B);
+            b=find(squarenumbers==B)-1;
+
             c2=a+b;
             c=a-b;
             
@@ -38,25 +39,25 @@ while true
         a=a-1;
     end
     if isprime(c)==0
-        pf{end+1}=prime_check(c);
+        pf(end+1)=prime_check(c)
 
 
     else
-        pf{end+1}=c;
+        pf(end+1)=c
 
     end
     if isprime(c2)==0
-        pf{end+1}=prime_check(c2);
+        pf(end+1)=prime_check(c2)
 
 
     else
-        pf{end+1}=c2;
+        pf(end+1)=c2
         break
 
     end
 
 end
 
-prime_factor=pf;
-end
+prime_factor=pf
+
 

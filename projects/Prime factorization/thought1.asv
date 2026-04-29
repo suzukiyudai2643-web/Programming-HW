@@ -3,10 +3,10 @@ clear
 clc
 
 
-c=input('enter a natural nubmer: ');
-disp(prime_check(c))
+c=input('enter a positive integer: ');
+
 function prime_factor=prime_check(c)
-squarenumbers=(1:floor(c/3)).^2;
+squarenumbers=(0:floor(c/3)).^2;
 
 pf={};
 while true
@@ -46,7 +46,8 @@ while true
 
     end
     if isprime(c2)==0
-        pfprime_check(c2)
+        pf{end+1}=prime_check(c2);
+
 
     else
         pf{end+1}=c2;
@@ -58,3 +59,4 @@ end
 
 prime_factor=pf;
 end
+disp(pf)

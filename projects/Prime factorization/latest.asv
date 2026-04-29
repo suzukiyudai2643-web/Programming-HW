@@ -1,0 +1,31 @@
+c=input('enter a natural nubmer: ');
+pf=[];
+squarenumbers=(0:floor(c/3)).^2;
+while mod(c,2)==0
+    pf(end+1)=2;
+    c=c/2;
+end
+pf(end+1)=c;
+while true
+    % for j=1:length(pf)
+    if pf(i)==1
+        break
+    end
+    end
+    for i=1:length(pf)
+        check=0;
+        
+        if isprime(pf(i))==0
+            use_this(pf(i))
+            check=1;
+            break
+
+        end
+    end
+    if check==0
+        break
+    end
+end
+disp(pf)
+
+
