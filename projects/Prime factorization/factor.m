@@ -38,9 +38,9 @@ disp(pf)
 %% function
 function [ans]=use_this(c)
 squarenumbers=(0:floor(c/3)).^2;
-a=floor(c/3);
+a=floor(sqrt(c));
 ans=[];
-while a^2-c>=0
+while true
     B=a^2-c;
     existsb=any(squarenumbers==B);
     if existsb==1
@@ -51,7 +51,7 @@ while a^2-c>=0
         ans(end+1)=l;
         break
     end
-    a=a-1;
+    a=a+1;
 end
 end
 

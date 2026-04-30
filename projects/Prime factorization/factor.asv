@@ -18,9 +18,9 @@ while true
     end
     for i=1:length(pf)
         check=0;
-        
-        if isprime(pf(i))==0
-            use_this(pf(i));
+        use_this(pf(i));
+        if ~=0
+            
             pf(i)=[];
             pf(end+1)=ans(1);
             pf(end+1)=ans(2);
@@ -44,6 +44,7 @@ while a^2-c>=0
     B=a^2-c;
     existsb=any(squarenumbers==B);
     if existsb==1
+
         b=find(squarenumbers==B)-1;
         k=a+b;
         l=a-b;

@@ -18,9 +18,8 @@ while true
     end
     for i=1:length(pf)
         check=0;
-        
-        if isprime(pf(i))==0
-            use_this(pf(i));
+        use_this(pf(i));
+        if ans(2)~=1
             pf(i)=[];
             pf(end+1)=ans(1);
             pf(end+1)=ans(2);
@@ -37,21 +36,24 @@ pf=sort(pf);
 disp(pf)
 %% function
 function [ans]=use_this(c)
-squarenumbers=(0:floor(c/3)).^2;
-a=floor(c/3);
-ans=[];
-while a^2-c>=0
+squarenumbers=(0:floor(sqrt(c))).^2;
+a=floor(sqrt(c));
+ans=[0 0];
+while true
     B=a^2-c;
     existsb=any(squarenumbers==B);
     if existsb==1
         b=find(squarenumbers==B)-1;
         k=a+b;
         l=a-b;
-        ans(end+1)=k;
-        ans(end+1)=l;
+        ans(1)=k;
+        ans(2)=l;
         break
     end
-    a=a-1;
+    if a>c/3
+        break
+    end
+    a=a+1;
 end
 end
 

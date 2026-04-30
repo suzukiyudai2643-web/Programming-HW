@@ -1,0 +1,22 @@
+n=input('enter a natural number: ');
+pf=[];
+check=0;
+while true
+    i=2;
+while i<=floor(sqrt(n))
+    
+    if mod(n,i)==0
+        pf(end+1)=i;
+        n=n/i;
+        i=2;
+        
+    end
+    i=i+1;
+end
+
+
+end
+    pf(end+1)=n;
+pf=sort(pf);
+disp(pf)
+
