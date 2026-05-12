@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      -->
+<title>from_higher</title>
+<meta name="generator" content="MATLAB 23.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2026-05-05">
+<meta name="DC.source" content="from_higher.m">
+<style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="content">
+<h2>Contents</h2>
+<div>
+<ul>
+<li>
+<a href="#1">Main script</a>
+</li>
+<li>
+<a href="#2">function</a>
+</li>
+</ul>
+</div>
+<h2 id="1">Main script</h2>
+<pre class="codeinput">c=input(<span class="string">'enter a natural nubmer: '</span>);
+<span class="comment">% the list of factors, starting from an empty</span>
+pf=[];
+<span class="keyword">if</span> c==1
+    disp(<span class="string">'empty prodct'</span>)
+    <span class="comment">% case c 1 one, unique case</span>
+<span class="keyword">end</span>
+<span class="keyword">global</span> squarenumbers
+squarenumbers=(0:floor(1/2*(c/3+3))).^2;
+<span class="comment">% the list of squarenumbers</span>
+<span class="keyword">while</span> mod(c,2)==0
+    <span class="comment">% if c is odd, we just divide by 2</span>
+    pf(end+1)=2;
+    c=c/2;
+<span class="keyword">end</span>
+<span class="keyword">if</span> c~=1
+pf(end+1)=c;
+<span class="keyword">end</span>
+<span class="keyword">while</span> true
+    <span class="keyword">if</span> c==1
+        <span class="comment">% we change c value so we have to check if c is not 1 every time</span>
+         <span class="keyword">break</span>
+        <span class="comment">% if c=1, break this loop</span>
+    <span class="keyword">end</span>
+    <span class="keyword">for</span> i=1:length(pf)
+        <span class="comment">% apply function to each factors</span>
+        check=0;
+        <span class="comment">% if we applied the function (1) or not (0)</span>
+
+        <span class="keyword">if</span> isprime(pf(i))==0
+            <span class="comment">% apply function if the number in factor set is not prime</span>
+            prime_factor(pf(i));
+            <span class="comment">% recall the function</span>
+            pf(i)=[];
+            <span class="comment">% erace the number we just factored from</span>
+            pf(end+1)=ans(1);
+            <span class="comment">% here, ans(1)=a+b</span>
+            pf(end+1)=ans(2);
+            <span class="comment">% here, ans(2)=a-b</span>
+            <span class="comment">% add two factors in the list</span>
+            check=1;
+            <span class="comment">% tell it that we did prime factor process</span>
+            <span class="keyword">break</span>
+
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    <span class="keyword">if</span> check==0
+        <span class="comment">% this means that we didn't apply prime factorization to non of the</span>
+        <span class="comment">% element</span>
+        <span class="keyword">break</span>
+        <span class="comment">% all elements are primes, so break</span>
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+pf=sort(pf);
+<span class="comment">% sort numbers in increasing order</span>
+disp(pf)
+<span class="comment">% display the result</span>
+</pre>
+<pre class="codeoutput error">Error using input
+Cannot call INPUT from EVALC.
+
+Error in from_higher (line 2)
+c=input('enter a natural nubmer: ');
+</pre>
+<h2 id="2">function</h2>
+<pre class="codeinput">
+<span class="keyword">function</span> [ans]=prime_factor(c)
+<span class="keyword">global</span> squarenumbers
+<span class="comment">% the out put has two elements (a+b) and (a-b)</span>
+a=floor(1/2*(c/3+3));
+<span class="comment">% take the upper boundary for a</span>
+ans=[];
+<span class="comment">% make the output as a vactor</span>
+<span class="keyword">while</span> a^2-c&gt;=0
+    <span class="comment">% stop after it reached the lower boundary</span>
+    B=a^2-c;
+    <span class="comment">% let B=b^2</span>
+    existsb=any(squarenumbers==B);
+    <span class="comment">% find from the square list</span>
+    <span class="keyword">if</span> existsb==1
+        b=find(squarenumbers==B)-1;
+        <span class="comment">% if B is a square, the column number-1 would be b since we started</span>
+        <span class="comment">% from 0</span>
+        ans(end+1)=a+b;
+        ans(end+1)=a-b;
+        <span class="comment">% add two factors into the list</span>
+        <span class="keyword">break</span>
+        <span class="comment">% end when we find factors</span>
+    <span class="keyword">end</span>
+    a=a-1;
+    <span class="comment">% if we didn't find factor, repeat this process until we find one</span>
+    <span class="comment">% here we have a=a-1 since we started from higher boundary</span>
+<span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre>
+<p class="footer">
+<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
+<br>
+</p>
+</div>
+<!--
+##### SOURCE BEGIN #####
+%% Main script
+c=input('enter a natural nubmer: ');
+% the list of factors, starting from an empty
+pf=[];
+if c==1
+    disp('empty prodct')
+    % case c 1 one, unique case
+end
+global squarenumbers
+squarenumbers=(0:floor(1/2*(c/3+3))).^2;
+% the list of squarenumbers
+while mod(c,2)==0
+    % if c is odd, we just divide by 2 
+    pf(end+1)=2;
+    c=c/2;
+end
+if c~=1
+pf(end+1)=c;
+end
+while true
+    if c==1
+        % we change c value so we have to check if c is not 1 every time
+         break
+        % if c=1, break this loop 
+    end
+    for i=1:length(pf)
+        % apply function to each factors
+        check=0;
+        % if we applied the function (1) or not (0)
+        
+        if isprime(pf(i))==0
+            % apply function if the number in factor set is not prime
+            prime_factor(pf(i));
+            % recall the function
+            pf(i)=[];
+            % erace the number we just factored from
+            pf(end+1)=ans(1);
+            % here, ans(1)=a+b
+            pf(end+1)=ans(2);
+            % here, ans(2)=a-b
+            % add two factors in the list
+            check=1;
+            % tell it that we did prime factor process
+            break
+
+        end
+    end
+    if check==0
+        % this means that we didn't apply prime factorization to non of the
+        % element
+        break
+        % all elements are primes, so break
+    end
+end
+pf=sort(pf);
+% sort numbers in increasing order
+disp(pf)
+% display the result
+%% function
+function [ans]=prime_factor(c)
+global squarenumbers
+% the out put has two elements (a+b) and (a-b)
+a=floor(1/2*(c/3+3));
+% take the upper boundary for a
+ans=[];
+% make the output as a vactor
+while a^2-c>=0
+    % stop after it reached the lower boundary
+    B=a^2-c;
+    % let B=b^2
+    existsb=any(squarenumbers==B);
+    % find from the square list
+    if existsb==1
+        b=find(squarenumbers==B)-1;
+        % if B is a square, the column number-1 would be b since we started
+        % from 0
+        ans(end+1)=a+b;
+        ans(end+1)=a-b;
+        % add two factors into the list
+        break
+        % end when we find factors
+    end
+    a=a-1;
+    % if we didn't find factor, repeat this process until we find one 
+    % here we have a=a-1 since we started from higher boundary
+end
+end
+
+
+##### SOURCE END #####
+-->
+</body>
+</html>

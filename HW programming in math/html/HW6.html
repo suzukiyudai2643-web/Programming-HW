@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      -->
+<title>HW6</title>
+<meta name="generator" content="MATLAB 23.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2026-04-28">
+<meta name="DC.source" content="HW6.m">
+<style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="content">
+<h2>Contents</h2>
+<div>
+<ul>
+<li>
+<a href="#1">Q1</a>
+</li>
+<li>
+<a href="#2">Q2</a>
+</li>
+<li>
+<a href="#3">Q3</a>
+</li>
+</ul>
+</div>
+<h2 id="1">Q1</h2>
+<pre class="codeinput">f=@(x) x^3+4*x^2-10;
+A=[1 2];
+a=A(1);
+b=A(2);
+exact=1.36523;
+
+n=0;
+<span class="keyword">while</span> true
+    c=(a+b)/2;
+<span class="keyword">if</span> f(a)*f(c)&lt;0
+    b=c;
+<span class="keyword">elseif</span> f(b)*f(c)&lt;0
+    a=c;
+<span class="keyword">elseif</span> f(a)*f(c)==0
+    fprintf(<span class="string">'the exact answer found x=%f\n'</span>,c)
+<span class="keyword">elseif</span> f(b)*f(c)==0
+    fprintf(<span class="string">'the exact answer found x=%f\n'</span>,c)
+<span class="keyword">else</span>
+    error(<span class="string">'process failed'</span>)
+<span class="keyword">end</span>
+n=n+1;
+fprintf(<span class="string">'at %d th interation, c=%f\n'</span>,n,c)
+plot(n,c,<span class="string">'*'</span>)
+xlabel(<span class="string">'number of interation'</span>)
+ylabel(<span class="string">'root value'</span>)
+title(<span class="string">'Bisection method'</span>)
+hold <span class="string">on</span>
+<span class="keyword">if</span> abs((b-a)/2)&lt;10^(-4)
+    fprintf(<span class="string">'root found: %f\n'</span>,c)
+    <span class="keyword">break</span>
+<span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre>
+<pre class="codeoutput">at 1 th interation, c=1.500000
+at 2 th interation, c=1.250000
+at 3 th interation, c=1.375000
+at 4 th interation, c=1.312500
+at 5 th interation, c=1.343750
+at 6 th interation, c=1.359375
+at 7 th interation, c=1.367188
+at 8 th interation, c=1.363281
+at 9 th interation, c=1.365234
+at 10 th interation, c=1.364258
+at 11 th interation, c=1.364746
+at 12 th interation, c=1.364990
+at 13 th interation, c=1.365112
+root found: 1.365112
+</pre>
+<img vspace="5" hspace="5" src="HW6_01.png" alt=""> <h2 id="2">Q2</h2>
+<pre class="codeinput">f=@(x) cos(x)-x;
+g=@(x) -sin(x)-1;
+
+x1=0.74;
+x2=0.74;
+n=0;
+
+<span class="keyword">while</span> true
+    x2=x1-(f(x1)/g(x1));
+    n=n+1;
+    plot(n,x2,<span class="string">'*'</span>)
+    hold <span class="string">on</span>
+
+    <span class="keyword">if</span> abs(x1-x2)&lt;10^(-10)
+        fprintf(<span class="string">'the root found in %d interations: x=%f\n'</span>,n,x2)
+        <span class="keyword">break</span>
+    <span class="keyword">end</span>
+    x1=x2;
+<span class="keyword">end</span>
+</pre>
+<pre class="codeoutput">the root found in 3 interations: x=0.739085
+</pre>
+<img vspace="5" hspace="5" src="HW6_02.png" alt=""> <h2 id="3">Q3</h2>
+<pre class="codeinput">A = 750000;
+P = 1500;
+years = 20;
+n = years * 12;
+
+f = @(i) (P/i) * ((1 + i)^n - 1) - A;
+
+initial_guess = 0.005;
+
+monthly_rate = fzero(f, initial_guess);
+
+annual_rate = monthly_rate * 12;
+
+fprintf(<span class="string">'Monthly Interest Rate: %.6f\n'</span>, monthly_rate);
+fprintf(<span class="string">'Minimal Annual Interest Rate: %.2f%%\n'</span>, annual_rate * 100);
+</pre>
+<pre class="codeoutput">Monthly Interest Rate: 0.005551
+Minimal Annual Interest Rate: 6.66%
+</pre>
+<p class="footer">
+<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
+<br>
+</p>
+</div>
+<!--
+##### SOURCE BEGIN #####
+%% Q1
+
+f=@(x) x^3+4*x^2-10;
+A=[1 2];
+a=A(1);
+b=A(2);
+exact=1.36523;
+
+n=0;
+while true
+    c=(a+b)/2;
+if f(a)*f(c)<0
+    b=c;
+elseif f(b)*f(c)<0
+    a=c;
+elseif f(a)*f(c)==0
+    fprintf('the exact answer found x=%f\n',c)
+elseif f(b)*f(c)==0
+    fprintf('the exact answer found x=%f\n',c)
+else
+    error('process failed')
+end
+n=n+1;
+fprintf('at %d th interation, c=%f\n',n,c)
+plot(n,c,'*')
+xlabel('number of interation')
+ylabel('root value')
+title('Bisection method')
+hold on
+if abs((b-a)/2)<10^(-4)
+    fprintf('root found: %f\n',c)
+    break
+end
+end
+
+%% Q2
+
+f=@(x) cos(x)-x;
+g=@(x) -sin(x)-1;
+
+x1=0.74;
+x2=0.74;
+n=0;
+
+while true
+    x2=x1-(f(x1)/g(x1));
+    n=n+1;
+    plot(n,x2,'*')
+    hold on
+    
+    if abs(x1-x2)<10^(-10)
+        fprintf('the root found in %d interations: x=%f\n',n,x2)
+        break
+    end
+    x1=x2;
+end
+
+%% Q3
+
+A = 750000;
+P = 1500;       
+years = 20;      
+n = years * 12;
+
+f = @(i) (P/i) * ((1 + i)^n - 1) - A;
+
+initial_guess = 0.005;
+
+monthly_rate = fzero(f, initial_guess);
+
+annual_rate = monthly_rate * 12;
+
+fprintf('Monthly Interest Rate: %.6f\n', monthly_rate);
+fprintf('Minimal Annual Interest Rate: %.2f%%\n', annual_rate * 100);
+
+
+##### SOURCE END #####
+-->
+</body>
+</html>

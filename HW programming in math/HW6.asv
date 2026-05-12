@@ -1,0 +1,70 @@
+%% Q1
+
+f=@(x) x^3+4*x^2-10;
+A=[1 2];
+a=A(1);
+b=A(2);
+exact=1.36523;
+
+n=0;
+while true
+    c=(a+b)/2;
+if f(a)*f(c)<0
+    b=c;
+elseif f(b)*f(c)<0
+    a=c;
+elseif f(a)*f(c)==0
+    fprintf('the exact answer found x=%f\n',c)
+elseif f(b)*f(c)==0
+    fprintf('the exact answer found x=%f\n',c)
+else
+    error('process failed')
+end
+n=n+1;
+fprintf('at %d th interation, c=%f\n',n,c)
+plot(n,c,'*')
+xlabel('number of interation')
+ylabel('root value')
+title('Bisection method')
+hold on
+if abs((b-a)/2)<10^(-4)
+    fprintf('root found: %f\n',c)
+    break
+end
+end
+
+%% Q2
+
+f=@(x) cos(x)-x;
+g=@(x) -sin(x)-1;
+
+x1=0.74;
+x2=0.74;
+n=0;
+
+while true
+    x2=x1-(f(x1)/g(x1));
+    n=n+1;
+    plot(n,x2,'*')
+    hold on
+    
+    if abs(x1-x2)<10^(-10)
+        fprintf('the root found in %d interations: x=%f\n',n,x2)
+        break
+    end
+    x1=x2;
+end
+
+%% Q3
+A=750000;
+% target value
+P=1500;
+% possible monthly deposit
+years=20;
+n=years*12;
+f=@(i) P/i*((1+i)^n-1)-A;
+initial_guess=0.5;
+
+monthly_rate=fzero(f, initial_guess);
+
+fprintf('monthly rate=%f\n',monthly_rate)

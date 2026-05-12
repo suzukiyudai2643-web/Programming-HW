@@ -1,0 +1,27 @@
+%% Q1
+
+for t=0:3:24
+    num_A=2^t;
+    num_B=2^(2*t/3);
+    subplot(1,2,1)
+    plot(t,num_A,'-or')
+    hold on
+    plot(t,num_B,'-ob')
+    xlabel('time')
+    ylabel('number of bacteria')
+    title('xy plot')
+    legend('Medium A','Medium B')
+
+    subplot(1,2,2)
+    semilogy(t,num_A,'-or')
+    hold on
+    semilogy(t,num_B,'-ob')
+    xlabel('time')
+    ylabel('number of bacteria')
+    title('linear-log')
+    legend('Medium A','Medium B')
+end
+% The nubmer of bacteria in each media is significantly different
+
+%% Q2
+
